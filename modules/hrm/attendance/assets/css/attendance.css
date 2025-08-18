@@ -1,0 +1,434 @@
+.attendance-date-field {
+
+}
+
+.attendance-time-field {
+
+}
+
+#attendance-single-title {
+    color: #800080;
+    text-transform: uppercase;
+    background-color: #C0C0C0;
+}
+
+.green-circle {
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    width:15px;
+    height:15px;
+    background-color: #32CD32;
+}
+
+.red-circle {
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    width:15px;
+    height:15px;
+    background-color: #ff4c4c;
+}
+
+#employee-attendance-table {
+    margin-top: 20px;
+}
+
+#employee-attendance-table table td,
+#employee-attendance-table table th {
+    text-align: left;
+}
+
+.att-query-form {
+    text-align: right;
+}
+
+.att-summary-print {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.att-color-box {
+    height: 10px;
+    width: 10px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.att-green {
+    background-color: #32CD32;
+}
+
+.att-red {
+    background-color: #ff6f75;
+}
+
+.att-orange {
+    background-color: #FFA500;
+}
+
+#att-report-primary {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+#att-report-secondary {
+    display: inline-block;
+}
+
+#emp-att-hr-report {
+    text-align: center;
+}
+
+.att-hr-summary h3.hndle {
+    font-size: 14px;
+    padding: 0px 12px;
+}
+
+#add-new-shift {
+    height:100px;
+    width: 150px;
+    float: left;
+    background-color: white;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-shift {
+    height:100px;
+    width: 150px;
+    float: left;
+    background-color: white;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shift-parent-edit {
+    width: 100%;
+}
+
+#shifts-container {
+    height: 120px;
+    /*width: 100vw;*/
+    overflow-x: scroll;
+}
+
+#shift-dorpdown-container {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#server-message {
+    display: flex;
+    justify-content: center;
+}
+
+.checkin-time-container {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.shift-edit-input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.shift-edit-input-title {
+    padding-top: 5px;
+    width: 80%;
+}
+
+.shift-edit-time-input-container {
+    width: 100%;
+    display: flex;
+}
+
+.shift-edit-start-time {
+    width: 70px;
+}
+
+.shift-edit-end-time {
+    width: 70px;
+}
+
+.shift-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.shift-button {
+    cursor: pointer;
+}
+
+.shift-parent-default {
+    width: 100%;
+}
+
+.shift-default-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shift-handle {
+    height: 5px;
+    width: 100px;
+    cursor: move;
+}
+
+#employee-assign-shift {
+    border-collapse: collapse;
+}
+
+
+/** New CSS **/
+#shifts-main-container {
+    display: flex;
+    overflow: scroll;
+}
+
+
+.shift-time-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shift-checkin-input {
+    width: 86px;
+}
+
+.shift-checkout-input {
+    width: 86px;
+}
+
+.shift-buttons-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.shift-buttons-container .btn {
+    background-color: white;
+    border-radius: 0;
+    color: #999;
+    padding: 0px;
+    border: none;
+    text-decoration: none;
+    /*margin-top: -1px;*/
+    /*margin-right: 1px;*/
+}
+
+.shift-buttons-container .btn:hover {
+    color: #FF9900;
+}
+
+.shift-items-container-default {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    margin-right: 5px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #e5e5e5;
+    width: 100px;
+    height: 70px;
+    cursor: move;
+}
+
+.shift-items-container-edit {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70px;
+    background: white;
+    margin-right: 5px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #e5e5e5;
+    width: 250px;
+}
+
+.shift-items-container-edit input{
+    height: 28px;
+}
+
+.shift-edit-title-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shift-title-input {
+    width: 178px;
+}
+
+.shift-done-button {
+    width: 63px;
+}
+
+.shift-add-button {
+    height: 70px;
+    background: white;
+    border: 1px solid #e5e5e5;
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-shift-text {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.daily-shift-single {
+    background: white;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 2px;
+    padding: 2px 5px;
+    font-size: smaller;
+}
+
+.daily-shift-delete {
+    cursor: pointer;
+}
+
+.daily-shift-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prev-next-container {
+    display: flex;
+    margin-bottom: 4px;
+}
+
+#save-changes-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#notice-shift-save-success {
+    display: none;
+}
+
+#notice-shift-copied-success {
+    display: none;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+.save-button-container {
+    margin-top: 20px;
+}
+
+.shift-list-header {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.shift-list-title {
+    font-weight: 600;
+}
+
+.shift-list-time {
+    font-size: 13px;
+}
+
+.shift-edit, .shift-delete {
+    cursor: pointer;
+}
+
+.assign-shifts-header {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.assign-shifts-action-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.assign-shift-search-input {
+    height: 28px;
+}
+
+#universal-check-all {
+    margin: 0;
+}
+
+.employee-select-all {
+
+}
+
+.assign-shift-employee {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.assign-shift-weekdays {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.assign-shift-date {
+    font-size: 13px;
+    color: #888888;
+}
+
+.assign-shift-thead-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.assign-shift-employee-name {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.copy-shift, .daily-shift-delete {
+    cursor: pointer;
+    border-radius: 0;
+    color: #999;
+    padding: 0px;
+    border: none;
+    text-decoration: none;
+}
+
+.copy-shift:hover, .daily-shift-delete:hover {
+    color: #FF9900;
+}
+
+#shifts-list-container {
+    display: flex;
+}
+
+#erp-new-attendance input:disabled,
+#erp-edit-attendance input:disabled {
+    opacity: 0.6;
+    background-color: #efefef;
+}
+
+.query_time {
+    margin-right: 15px;
+}
+.att-query-form + .att-summary-print {
+    margin-top: 10px;
+}
+.erp-nav-container .-secondary > li a:empty {
+    display: none !important;
+}

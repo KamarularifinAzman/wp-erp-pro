@@ -1,0 +1,23 @@
+= v1.1.2 = (28 May, 2020)
+--------------------------
+[fix] Updated some string
+
+= v1.1.0 (09 March, 2020) =
+--------------------------
+[new] Add participant pop up at training page
+[new] Add email notification after assigning new training
+[new] Add incomplete training counter at training tab
+[fix] Redirect to list page after creating a new training
+[fix] Fix after training completion popup height
+
+= v1.0.2 (16 October, 2019) =
+--------------------------
+[fix] Load previous training on select list
+
+= v1.0.1 (26 February, 2019) =
+--------------------------
+[fix] Plugin license name
+
+= v1.0.0 (10 September, 2018) =
+--------------------------
+- Initial release

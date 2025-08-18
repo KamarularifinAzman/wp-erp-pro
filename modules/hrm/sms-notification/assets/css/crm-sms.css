@@ -1,0 +1,66 @@
+.erp-single-customer .erp-customer-feeds #sms p {
+  margin: 0px;
+  border-bottom: 1px solid #eee;
+  padding: 8px 0px;
+  font-weight: bold;
+}
+
+.erp-single-customer .erp-customer-feeds #sms p label {
+  min-width: 12%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.erp-single-customer .erp-customer-feeds #sms p span.sep {
+  width: 15px;
+  display: inline-block;
+}
+
+.erp-single-customer .erp-customer-feeds #sms p input[type='text'],
+.erp-single-customer .erp-customer-feeds #sms p textarea {
+  border: none;
+  box-shadow: none;
+  transition: none;
+  width: 80%;
+}
+
+.erp-single-customer .erp-customer-feeds #sms p input[type='text']:focus {
+  outline: none;
+}
+
+.erp-single-customer .erp-customer-feeds #sms p input[type='text']::-webkit-input-placeholder {
+  font-style: italic;
+  font-weight: normal;
+}
+
+.erp-single-customer .erp-customer-feeds #sms p input[type='text']:-moz-placeholder {
+  font-style: italic;
+  font-weight: normal;
+}
+
+.erp-single-customer .erp-customer-feeds #sms p input[type='text']::-moz-placeholder {
+  font-style: italic;
+  font-weight: normal;
+}
+
+.erp-single-customer .erp-customer-feeds #sms p input[type='text']:-ms-input-placeholder {
+  font-style: italic;
+  font-weight: normal;
+}
+
+.erp-single-customer .erp-customer-feeds #sms p span.select2-selection--multiple {
+  border: none;
+  height: 32px;
+}
+
+.erp-single-customer .erp-customer-feeds #sms p span.select2-selection--multiple input {
+  width: 100% !important;
+}
+
+#sms .select2-search--inline {
+  width: 299px !important;
+}
+
+.erp-crm-sms-number-select2-suggession-hidden {
+  display: none !important;
+}

@@ -1,0 +1,1879 @@
+.erp-hr-recruitment-meta-wrap-table {
+
+}
+
+.erp-hr-recruitment-meta-wrap-table label {
+    color: #23282d;
+    float: left;
+    font-weight: 600;
+    line-height: 1.3;
+    padding: 6px 10px 20px 0;
+    text-align: left;
+    vertical-align: top;
+    /*width: 165px;*/
+    width: 100%;
+}
+
+.erp-hr-recruitment-meta-wrap-table select,
+.erp-hr-recruitment-meta-wrap-table #glocation {
+    width: 60%;
+}
+#erp-hr-applicantion-stage .inside{
+    overflow-y: hidden;
+}
+/*applicant list table css*/
+#applicant_list_table {
+
+}
+
+#applicant_list_table,
+#applicant_list_table th,
+#applicant_list_table td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+#applicant_list_table tr {
+
+}
+
+#applicant_list_table tr th {
+    background-color: #F0F8FB;
+}
+
+/*applicant detail page*/
+.erp-applicant-detail section .hndle {
+    margin: 0 !important;
+    font-size: 14px;
+    padding: 8px 12px;
+}
+
+.erp-applicant-detail .btn_holder #make_him_employee {
+
+}
+
+.erp-applicant-detail .btn_holder a {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.erp-applicant-detail .activity-block {
+    border-bottom: 0;
+}
+
+#rating_status_form_wrapper {
+    /*overflow-y: hidden;*/
+}
+
+#status_form_wrapper {
+    margin: 0 auto;
+    width: 91%;
+    overflow-y: hidden;
+}
+
+/*style for application comment*/
+#wp-erp-rec-edit-applicant-details {
+    overflow-y: hidden;
+    width: 60%;
+}
+
+#wp-erp-rec-edit-applicant-details .left_box {
+    float: left;
+    width: 85%;
+}
+
+#wp-erp-rec-edit-applicant-details .right_box {
+    float: left;
+    width: 90%;
+    border: 3px solid #ccc;
+}
+
+.application-comment-list {
+    overflow-y: hidden;
+    clear: both;
+}
+
+.application-comment-list li {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.application-comment-list li b.fn {
+    color: #0073aa;
+}
+
+.application-comment-list li .vcard .avatar {
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+}
+
+.application-comment-list li .ctime {
+    font-size: 9px;
+    float: right;
+}
+
+.application-comment-list li .comment-content {
+    float: left;
+    width: 90%;
+    padding-top: 10px;
+    white-space: pre-wrap;
+    line-height: 1.6;
+}
+
+/*rating css*/
+#rating_status_form ul li {
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#rating_status_form .br-widget a {
+    font-size: 48px;
+}
+
+#rating_status_form .br-widget a:focus {
+    box-shadow: none;
+}
+
+#status_form {
+    overflow-y: hidden;
+}
+
+.error_notice {
+    float: left;
+    width: 99%;
+    padding: 11px 15px;
+    /*border: 1px solid #ff0d2d;*/
+    border-left: 3px solid #ff0000;
+    /*background-color: #fadce0;*/
+    background-color: #fff;
+    /*border-radius: 2px;*/
+    /*text-align: center;*/
+    text-align: left;
+    font-size: 14px;
+}
+
+.success_notice {
+    float: left;
+    width: 99%;
+    padding: 11px 15px;
+    /*border: 1px solid #1c9e08;*/
+    border-left: 3px solid #7ad03a;
+    /*background-color: #e0fadc;*/
+    background-color: #fff;
+    /*border-radius: 2px;*/
+    /*text-align: center;*/
+    text-align: left;
+    font-size: 14px;
+}
+
+#rightbox {
+    float: left;
+    width: 40%;
+    margin-left: 15px;
+}
+
+.application-rating-list {
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #c9c9c9;
+    border-top: 1px solid #c9c9c9;
+    float: left;
+    width: 100%;
+    padding-top: 10px;
+}
+
+#input_rating_wrapper {
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+#or_label {
+    float: left;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+#average_rating {
+    float: left;
+    font-weight: bold;
+    font-size: 19px;
+    margin-left: 33px;
+}
+
+#input_rating_wrapper .br-theme-fontawesome-stars .br-widget {
+    float: right;
+    margin-top: -7px;
+    height: 45px;
+}
+
+#input_rating_wrapper .br-theme-fontawesome-stars .br-widget a {
+    font-size: 32px;
+}
+
+.application-rating-list li {
+    float: left;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.application-rating-list li .vcard .avatar {
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+.application-rating-list li .fn {
+    float: left;
+}
+
+.application-rating-list li .fn label {
+    color: #0073aa;
+    line-height: 29px;
+}
+
+.application-rating-list li label.rating_number {
+    color: #000;
+    /*float: right;*/
+    line-height: 29px;
+}
+
+.application-rating-list li .br-theme-fontawesome-stars .br-widget {
+    float: right;
+}
+
+.application-rating-list li .br-theme-fontawesome-stars .br-widget a {
+    font-size: 17px;
+}
+
+/*make him employee page layout*/
+#make_him_employee_form_id .form-table td select{
+    width: 25em;
+}
+ul.erp-list.separated span.value select,
+ul.erp-list.separated span.value input,
+ul.erp-list.separated span.value textarea {
+    width: 69%;
+}
+
+ul.list-table-like li {
+    display: table;
+    width: 100%;
+}
+
+ul.list-table-like li > label {
+    display: table-cell !important;
+    width: 20%;
+    padding: 6px 0 6px 10px;
+}
+
+ul.list-table-like li span.sep {
+    display: table-cell !important;
+    width: 1%;
+    vertical-align: top;
+    padding: 6px 0;
+}
+
+ul.list-table-like li span.value {
+    display: table-cell;
+    width: 79%;
+    padding: 6px 10px 6px 0;
+    vertical-align: top;
+}
+
+span.value-pre {
+    white-space: pre-wrap;
+    line-height: 150%;
+    display: inline-block;
+}
+
+/*job list*/
+.jtitle {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/*css for applicant personal fields*/
+.btn_holder {
+    overflow-y: hidden;
+}
+
+.applicant_personal_fields:hover {
+    border: 1px solid #999;
+}
+
+.applicant_personal_fields {
+    background: #fafafa;
+    border: 1px solid #dfdfdf;
+    font-size: 13px;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: move;
+}
+
+.applicant_require_personal_fields {
+    background: #fafafa;
+    border: 1px solid #dfdfdf;
+    font-size: 13px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.applicant_personal_mandatory_fields {
+    background: #fafafa;
+    border: 1px solid #dfdfdf;
+    font-size: 13px;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: default;
+}
+
+.applicant_check_all {
+    float: left;
+    padding: 10px;
+}
+
+.applicant_check_all:nth-child(2) {
+    float: right;
+}
+
+#sortit {
+    overflow-y: hidden;
+    width: 100%;
+}
+
+/*exam list*/
+#exam_detail {
+    /*float: left;*/
+    /*width: 96%;*/
+    overflow-y: hidden;
+}
+
+#exam_detail ul li {
+    float: left;
+    width: 100%;
+}
+
+#exam_detail .questions_here {
+    border-bottom: 1px solid #E3E3E3;
+    font-size: 14px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#exam_detail .answers_here {
+    float: left;
+    width: 100%;
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #E3E3E3;
+    padding: 5px 10px;
+    line-height: 150%;
+}
+
+#exam_detail .answers_here p:first-child {
+    margin-top: 0;
+}
+
+#exam_detail .answers_here p:last-child {
+    margin-bottom: 0;
+}
+
+.page-title-action {
+    cursor: pointer;
+}
+.page-title-action-q {
+    top:2px !important;
+}
+
+/*email form*/
+#editor-postbox-container {
+    width: 50% !important;
+}
+
+.email-inside {
+    overflow-y: hidden;
+}
+
+.email_send_button {
+    margin-top: 5px !important;
+}
+
+#send_email_to_jobseeker .row {
+    margin-bottom: 5px;
+}
+
+#email_recipient_list {
+}
+
+#email_recipient_list h2 {
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+}
+
+#email_recipient_list ul {
+
+}
+
+#email_recipient_list ul li:first-child {
+    border-top: 1px solid #dfdfdf;
+}
+
+#email_recipient_list ul li:hover {
+    border-left: 2px solid #dfdfdf;
+    border-right: 2px solid #dfdfdf;
+    border-bottom: 2px solid #dfdfdf;
+    border-top: 1px solid #DFDFDF;
+}
+
+#email_recipient_list ul li {
+    border: 1px solid #dfdfdf;
+    border-top: 0;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+#email_recipient_list ul li a.remove_email {
+    color: #404040;
+    float: right;
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+#email_recipient_list ul li .gravater_img {
+    float: left;
+    margin-left: 5px;
+}
+
+#email_recipient_list ul li .gravater_img img {
+    border-radius: 16px;
+}
+
+#email_recipient_list ul li label {
+    margin-left: 5px;
+    line-height: 26px;
+}
+
+/*file system style*/
+/*.fileUpload {*/
+/*position: relative;*/
+/*overflow: hidden;*/
+/*margin: 10px;*/
+/*}*/
+/*.fileUpload input.upload {*/
+/*position: absolute;*/
+/*top: 0;*/
+/*right: 0;*/
+/*margin: 0;*/
+/*padding: 0;*/
+/*font-size: 20px;*/
+/*cursor: pointer;*/
+/*opacity: 0;*/
+/*filter: alpha(opacity=0);*/
+/*background-color: #337ab7;*/
+/*border-color: #2e6da4;*/
+/*color: #fff;*/
+/*}*/
+/*.fileUpload .fu_text{*/
+/*font-family: "Open Sans", sans-serif;*/
+/*}*/
+/*.create_folder{*/
+/*margin-right: 10px !important;*/
+/*}*/
+/*.file-search-box{*/
+/*margin-bottom: 15px !important;*/
+/*}*/
+#browse-header {
+    background: #fff none repeat scroll 0 0;
+    min-height: 98px;
+    position: fixed;
+    top: 50px;
+    width: 800px;
+    z-index: 4;
+}
+
+/* always present */
+.fade-transition {
+    transition: all 1s ease;
+}
+
+/* .expand-enter defines the starting state for entering */
+/* .expand-leave defines the ending state for leaving */
+.fade-enter, .fade-leave {
+    opacity: 0;
+}
+
+.dir_file_chkbox {
+    float: left;
+    margin-top: 10px !important;
+}
+
+/*#checkbox_all{*/
+/*border-bottom: 1px solid #e5e5e5;*/
+/*float: left;*/
+/*width: 100%;*/
+/*padding-bottom: 8px;*/
+/*}*/
+/*#three_imp_buttons{*/
+/*float: left;*/
+/*width: 100%;*/
+/*margin-top: 5px;*/
+/*}*/
+/*#browse-location{*/
+/*float: left;*/
+/*width: 100%;*/
+/*}*/
+/*applicant list*/
+.list-table-inner .dashicons-email-alt {
+    color: #404040;
+}
+
+.filelink img {
+    width: 32px;
+}
+
+.dir_file_icon_wrapper {
+    float: left;
+}
+
+#loader_wrapper {
+    margin: 0 auto;
+    width: 32px;
+}
+
+#loader_gif {
+    background-image: url('../images/loader.gif');
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+}
+
+.not-loaded {
+    display: none;
+}
+
+.wp-erp-wrap .hndle {
+    padding: 5px;
+}
+/*todos css*/
+.todo-template-container label{
+    display: block !important;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.todo-template-container .select2{
+    width: 100% !important;
+}
+.todo-template-container #deadlinedate{
+    float: left;
+    width: 50%;
+}
+.todo-template-container #deadlinetime{
+    float: left;
+    width: 48%;
+}
+/*interview css*/
+.interview-template-container .popuplside{
+    float: left;
+    width: 50%;
+}
+.interview-template-container .popuprside{
+
+}
+.interview-template-container label{
+    display: block !important;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.interview-template-container .select2,
+.interview-template-container .select{
+    width: 100% !important;
+}
+.interview-template-container #interview_date{
+    float: left;
+    width: 50%;
+}
+.interview-template-container #interview_time{
+    float: left;
+    width: 48%;
+}
+.no-interview-todo-caption{
+    text-align: center;
+    color: #a6a6a6;
+}
+/*candidate single page css*/
+.erp-applicant-detail #gravater_image{
+    float: left;
+}
+.erp-applicant-detail #name_and_position{
+    float: left;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    width: 75%;
+}
+.erp-applicant-detail #stage_and_rating{
+    float: left;
+    margin-left: 15px;
+    width: 70%;
+}
+.erp-applicant-detail #rating{
+    margin-left: 10px;
+}
+.erp-applicant-detail #status{
+    margin-left: 10px;
+}
+.erp-applicant-detail #button-actions{
+    float: left;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.erp-applicant-detail .button-actions-hired{
+    margin-left: 0 !important;
+}
+.erp-applicant-detail #button-actions .button-controls button:first-child{
+    margin-left: 0;
+}
+.erp-applicant-detail #button-actions .button-controls button{
+    margin-left: 10px;
+}
+.erp-applicant-detail #button-actions .button-controls a{
+    margin-left: 10px;
+}
+.erp-applicant-detail #dropdown-actions{
+    float: right;
+    margin-top: 14px;
+    margin-bottom: 10px;
+}
+.erp-applicant-detail #dropdown-actions #stage_action{
+    float: right;
+    width: 48%;
+}
+.erp-applicant-detail #dropdown-actions #stage_action .spinner{
+
+}
+.erp-applicant-detail #dropdown-actions #decision_action{
+    float: right;
+}
+/*.erp-applicant-detail #dropdown-actions #decision_action .spinner{*/
+    /*position: absolute;*/
+    /*margin-left: -30px;*/
+/*}*/
+.erp-applicant-detail #candidate_name{
+    font-size: 19px;
+}
+.erp-applicant-detail #job_title{
+    color: #ababab;
+}
+.erp-applicant-detail #left-fixed-menu{
+    /*background-color: #f8f8f8;*/
+    /*width: 13%;*/
+    /*height: 100%;*/
+}
+.erp-applicant-detail #left-fixed-menu ul{
+    list-style-type: none;
+    /*position: fixed;*/
+    margin-top: 0;
+}
+.erp-applicant-detail #left-fixed-menu ul li{
+    display: block;
+    margin-bottom: 0;
+}
+.erp-applicant-detail #left-fixed-menu ul li:first-child a{
+    border-top:1px solid #eee;
+}
+.erp-applicant-detail #left-fixed-menu ul li a{
+    padding: 15px 30px 15px 18px;
+    text-decoration: none;
+    color: #0073aa;
+    display: block;
+    border-bottom:1px solid #eee;
+    font-size: 13px;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    background-color: #f8f8f8;
+}
+.erp-applicant-detail #left-fixed-menu ul li a:hover{
+    /*background-color: #ebebeb;*/
+    background-color: #fff;
+}
+.erp-applicant-detail .single-information-container{
+    /*height: auto;*/
+    /*width: 82%;*/
+    /*padding-left: 2%;*/
+    /*background-color: #fff;*/
+    margin-left: 2%;
+    /*padding-right: 2%;*/
+    /*border: 1px solid #ababab;*/
+    overflow-y: hidden;
+}
+.erp-applicant-detail .single-information-container section{
+    background-color: #fff;
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.erp-applicant-detail .single-information-container .section-header{
+
+}
+.erp-applicant-detail .single-information-container .section-content{
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    overflow-y: hidden;
+}
+.erp-applicant-detail .single-information-container .full-width{
+    margin-left: 0;
+    margin-right: 0;
+}
+.erp-applicant-detail .single-information-container .full-width #input_rating_wrapper{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.erp-applicant-detail .single-information-container .section-content .hndle-title{
+    background-color: #f9f9f9;
+    padding: 1%;
+    border: 1px solid #eee;
+}
+.erp-applicant-detail .single-information-container .section-content .content-body{
+    padding-left: 1%;
+    border: 1px solid #eee;
+}
+
+.single-information-container .section-personal-info ul.erp-list li:nth-child(odd),
+.single-information-container .section-referrel ul.erp-list li:nth-child(odd) {
+    background-color: #f5f5f5;
+}
+
+.cinside table{
+    border-collapse: collapse;
+}
+#section-interview .calendar-list .calendar-list-item{
+    border: 1px solid #eee;
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+#section-interview .calendar-list .calendar-list-item .interview_type{
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #eee;
+    padding: 1%;
+}
+#section-interview .calendar-list .calendar-list-item .interview_type span.edit-button{
+    cursor: pointer;
+    float: right;
+    font-size: 10px;
+}
+#section-interview .calendar-list .calendar-list-item .interview_type span.delete-button:before{
+    content: "|";
+    padding-left: 10px;
+    padding-right: 5px;
+}
+#section-interview .calendar-list .calendar-list-item .interview_type span.delete-button{
+    cursor: pointer;
+    float: right;
+    font-size: 10px;
+}
+#section-interview .calendar-list .calendar-list-item .interview_time{
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+#section-interview .calendar-list .calendar-list-item .interviewers{
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+#section-interview .calendar-list .calendar-list-item .interview_detail{
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+#section-referrel ul.erp-list {
+    padding: 0px 10px;
+}
+
+.hndle-toogle-button:before{
+    content: "\f142";
+    font:400 20px/1 dashicons;
+}
+.hndle-toogle-button{
+    width: 36px;
+    height: 36px;
+    display: block;
+    cursor: pointer;
+    padding: 8px 10px;
+    float: right;
+}
+.toggle-metabox-show{
+    display: block;
+}
+.toggle-metabox-hide{
+    display: none;
+}
+/*comment*/
+.erp-applicant-detail .single-information-container .full-width #input_comment_wrapper{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#section-comment .application-comment-list li{
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 0;
+    padding: 10px 10px 10px 15px;
+}
+#section-comment .application-comment-list li .vcard .avatar{
+    border-radius: 0;
+}
+/*todos css*/
+#section-todo .calendar-list{
+    float: left;
+    margin-top: 0;
+    width: 100%;
+}
+#section-todo .calendar-list .calendar-list-item{
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+    float: left;
+    width: 100%;
+}
+#section-todo .calendar-list .calendar-list-item .interview_type{
+    font-size: 15px;
+    float: left;
+}
+#section-todo .calendar-list .calendar-list-item .interview_type label.todo-title{
+
+}
+#section-todo .calendar-list .calendar-list-item .interview_time{
+    float: right;
+}
+#section-todo .calendar-list .calendar-list-item .interviewers{
+    padding-left: 15px;
+    float: left;
+    font-size: 10px;
+    line-height: 20px;
+}
+#section-todo .calendar-list .calendar-list-item .interview_detail{
+    padding-left: 15px;
+}
+#section-todo .calendar-list .calendar-list-item .todo-handler{
+    cursor: pointer;
+    margin-left: 8px;
+}
+#section-todo .calendar-list .calendar-list-item .interview_time .todo-status-done-button,
+#section-todo .calendar-list .calendar-list-item .interview_time .todo-status-overdue-button{
+    background-color: green;
+    border-radius: 9px;
+    color: white;
+    font-size: 10px;
+    margin-right: 10px;
+    padding: 2px;
+    cursor: pointer;
+}
+#section-todo .calendar-list .calendar-list-item .interview_time .todo-status-overdue-button{
+    background-color: #ff0000;
+}
+#section-todo .calendar-list .calendar-list-item .interview_time .todo-delete:before{
+    content: "|";
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#section-todo .calendar-list .calendar-list-item .interview_time .todo-delete{
+    cursor: pointer;
+}
+/*calendar page*/
+.erp-calendar-detail #left-fixed-menu{
+    background-color: #f9f9f9;
+    /*width: 13%;*/
+    /*height: 100%;*/
+    float: left;
+    width: 15%;
+}
+.erp-calendar-detail #left-fixed-menu ul{
+    list-style-type: none;
+    /*position: fixed;*/
+    margin-top: 0;
+}
+.erp-calendar-detail #left-fixed-menu ul li{
+    display: block;
+    margin-bottom: 0;
+}
+.erp-calendar-detail #left-fixed-menu ul li:first-child span{
+    /*background-color: #fff;*/
+    /*border-right: 0 none;*/
+    /*border-top: 0 none;*/
+}
+.erp-calendar-detail #left-fixed-menu ul li span{
+    padding: 20px 30px 20px 35px;
+    text-decoration: none;
+    color: #0073aa;
+    display: block;
+    border-bottom:1px solid #ccc;
+    font-size: 15px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    cursor: pointer;
+}
+.erp-calendar-detail #left-fixed-menu ul li span:hover{
+    background-color: #fff;
+    border-right: 0;
+}
+.erp-calendar-detail #left-fixed-menu ul li span.left-menu-current-item{
+    background-color: #fff;
+    border-right: 0;
+}
+.show-cal-item{
+    display: block;
+}
+.hide-cal-item{
+    display: none;
+}
+.erp-calendar-detail .single-information-container{
+    float: left;
+    margin-left: 1%;
+    margin-top: 10px;
+    width: 84%;
+}
+/*candidate page*/
+.erp-candidate-detail h1 {
+    margin-bottom: 10px;
+}
+
+.erp-candidate-detail h1 .dashicons,
+.erp-applicant-detail h1 .dashicons {
+    margin-top: 5px;
+}
+
+.erp-candidate-detail h1 .job-title {
+    color: #999;
+}
+
+.erp-applicant-detail .job-title a {
+    text-decoration: none;
+}
+
+.erp-candidate-detail #left-fixed-menu{
+    background-color: #f9f9f9;
+    /*width: 13%;*/
+    /*height: 100%;*/
+    float: left;
+    width: 15%;
+}
+.erp-candidate-detail #left-fixed-menu ul{
+    list-style-type: none;
+    /*position: fixed;*/
+    margin-top: 0;
+}
+.erp-candidate-detail #left-fixed-menu ul li{
+    display: block;
+    margin-bottom: 0;
+}
+.erp-candidate-detail #left-fixed-menu ul li:first-child span{
+    border-top:0;
+}
+.erp-candidate-detail #left-fixed-menu ul li span.left-menu-current-item{
+    background-color: #fff;
+    border-right: 0;
+}
+.erp-candidate-detail #left-fixed-menu ul li span a{
+    text-decoration: none;
+    padding: 20px 20px 20px 25px;
+    display: block;
+}
+.erp-candidate-detail #left-fixed-menu ul li span{
+    /*padding: 20px 30px 20px 35px;*/
+    text-decoration: none;
+    color: #0073aa;
+    display: block;
+    border-bottom:1px solid #e5e5e5;
+    border-left: none;
+    border-right:1px solid #e5e5e5;
+    font-size: 15px;
+    cursor: pointer;
+}
+.erp-candidate-detail #left-fixed-menu ul li span:hover{
+    background-color: #fff;
+}
+.erp-candidate-detail .single-information-container table.wp-list-table th#apply_date{
+    width: 105px;
+}
+.erp-candidate-detail .single-information-container table.wp-list-table th#avg_rating{
+    width: 85px;
+}
+.erp-candidate-detail .single-information-container{
+    float: left;
+    margin-left: 1%;
+    margin-top: 10px;
+    width: 84%;
+    position: relative;
+    padding-bottom: 15px;
+}
+.erp-candidate-detail .single-information-container #candidate-overview-zone{
+    float: left;
+    width: 100%;
+    position: relative;
+    /*display: flex;*/
+}
+.erp-candidate-detail .single-information-container .filter-box:first-child{
+    margin-left: 0;
+}
+.erp-candidate-detail .single-information-container .filter-box-wrapper:first-child{
+    margin-left: 0;
+}
+.erp-candidate-detail .single-information-container .filter-box-wrapper:first-child:before{
+    border-color: transparent transparent transparent #076aa4;
+    border-style: solid;
+    border-width: 0;
+    content: "";
+    display: block;
+    height: 0;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+.erp-candidate-detail .single-information-container .filter-box-wrapper:first-child:after{
+    border-color: transparent transparent transparent #fff;
+    border-style: solid;
+    border-width: 0;
+    content: "";
+    display: block;
+    height: 0;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+.erp-candidate-detail .single-information-container .filter-box-wrapper{
+    float: left;
+    margin-left: 25px;
+    position: relative;
+    height: 103px;
+    margin-bottom: 15px;
+    /*flex: 1;*/
+}
+.erp-candidate-detail .single-information-container .filter-box-wrapper:hover{
+    background-color: #076aa4;
+    color: #fff;
+    border-color: transparent transparent transparent #076aa4;
+}
+.erp-candidate-detail .single-information-container .filter-box:hover{
+    background-color: #076aa4;
+    color: #fff;
+}
+.erp-candidate-detail .single-information-container .filter-box:hover:before{
+    border-color: transparent transparent transparent #fff;
+}
+.erp-candidate-detail .single-information-container .filter-box:hover:after{
+    border-color: transparent transparent transparent #076aa4;
+}
+.erp-candidate-detail .single-information-container .filter-box-wrapper:before{
+    border-color: transparent transparent transparent #076aa4;
+    border-style: solid;
+    border-width: 51px 0 51px 25px;
+    content: "";
+    display: block;
+    height: 0;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+.erp-candidate-detail .single-information-container .filter-box-wrapper:after{
+    border-color: transparent transparent transparent #fff;
+    border-style: solid;
+    border-width: 51px 0 51px 25px;
+    content: "";
+    display: block;
+    height: 0;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+.erp-candidate-detail .single-information-container .filter-box-wrapper:first-child .filter-box{
+    border-left: 1px solid;
+}
+.erp-candidate-detail .single-information-container .filter-box{
+    border: 1px solid #076aa4;
+    border-left: 0;
+    border-right: 0;
+    float: left;
+    margin-left: 10px;
+    /* padding: 24px 50px 23px 16px;*/
+    padding: 7px;
+    margin-bottom: 15px;
+    min-width: 128px;
+    min-height: 88px;
+    /*cursor: pointer;*/
+    text-decoration: none;
+}
+.erp-candidate-detail .single-information-container .filter-box:before{
+    border-color: transparent transparent transparent #076aa4;
+    border-style: solid;
+    border-width: 51px 0 51px 25px;
+    content: "";
+    display: block;
+    height: 0;
+    left: 100%;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+.erp-candidate-detail .single-information-container .filter-box:after{
+    border-color: transparent transparent transparent #fff;
+    border-style: solid;
+    border-width: 51px 0 51px 25px;
+    content: "";
+    display: block;
+    height: 0;
+    left: 100%;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+.erp-candidate-detail .single-information-container .filter-box-wrapper:first-child .top-zone-number{
+    text-indent: 0;
+}
+.erp-candidate-detail .single-information-container .filter-box .top-zone-number{
+    font-size: 35px;
+    display: block;
+    padding: 15px 5px 5px 10px;
+    min-height: 35px;
+    text-indent: 20px;
+}
+.erp-candidate-detail .single-information-container .filter-box-wrapper:first-child .footer-zone-text{
+    text-indent: 0;
+}
+.erp-candidate-detail .single-information-container .filter-box .footer-zone-text{
+    font-size: 14px;
+    display: block;
+    padding: 10px 5px 5px 10px;
+    text-indent: 20px;
+}
+.candidate-template-container .popuplside {
+    float: left;
+    width: 50%;
+}
+.candidate-template-container .popuprside {
+}
+/*opening form*/
+#step-list-np{
+    margin: 10px 0 0 13px;
+    padding: 0;
+}
+#step-list-np li{
+    float: left;
+    background-color: #fff;
+    padding: 10px;
+}
+#step-list-np li.current-active{
+    background-color: #0073AA;
+    color: #fff;
+}
+#step-list-np li.current-active span.sl{
+    background-color: #fff;
+    color: #0073AA;
+}
+#step-list-np li span.sl{
+    background-color: #e5e5e5;
+    border-radius: 21px;
+    color: #999;
+    margin-right: 5px;
+    padding: 3px 8px;
+}
+#submitbox-postbox .inside{
+    padding: 0;
+    margin: 0;
+}
+#submitbox-postbox .step-list{
+
+}
+#submitbox-postbox .step-list .openingform_header_title{
+    display: none;
+}
+#submitbox-postbox .openingform_input_wrapper{
+    padding: 0 10px;
+    margin-bottom: 5px;
+}
+#submitbox-postbox .step-command-list{
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    margin: 0;
+    padding: 10px;
+    float: left;
+    width: 100%;
+}
+#openingform fieldset p a{
+    text-decoration: none;
+    background: #0085ba none repeat scroll 0 0;
+    border-color: #0073aa #006799 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+    height: 30px;
+    line-height: 28px;
+    padding: 0 12px 2px;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 13px;
+}
+#openingform fieldset p a.prev{
+    float: left;
+}
+#openingform .openingform_header_title{
+    margin-top: 0;
+}
+#openingform fieldset p{
+    text-align: right;
+}
+#openingform #opening_title{
+    width: 100%;
+}
+#openingform #opening_description{
+    width: 100%;
+}
+#openingform_sortit,
+#openingform_sortit_edit_mode{
+    float: left;
+    width: 100%;
+}
+#openingform_sortit .stage-list,
+#openingform_sortit_edit_mode .stage-list{
+    background: #fafafa none repeat scroll 0 0;
+    border: 1px solid #dfdfdf;
+    font-size: 13px;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: move;
+}
+#stage-validation-message{
+    background-color: #ffd9d9;
+    border: 1px solid #a7301f;
+    float: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    width: 99%;
+    display: none;
+}
+.section-job-information{
+
+}
+.section-job-information select,
+.section-job-information input[type="text"]{
+    width: 95%;
+}
+.section-questionnaire .selected-question-set{
+    text-align: left !important;
+}
+#openingform_candidate_basic_information .basic-information-list{
+    background: #fafafa none repeat scroll 0 0;
+    border: 1px solid #dfdfdf;
+    font-size: 13px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: none;
+}
+.basic-information-list .disable-input{
+    margin-left: 15px;
+    background-color: #efefef;
+}
+.basic-information-list .disable-input[type="email"]{
+    margin-left: 47px;
+}
+#submit_opening{
+    background-color: #000;
+    border: 0 none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    font-weight: bold;
+    margin-top: 7px;
+    padding: 8px 12px;
+    position: absolute;
+    right: 6px;
+}
+p.info-message{
+    border: 1px solid #bce8f1;
+    background-color: #d9edf7;
+    color: #31708f;
+    padding:5px;
+    margin-top: 0;
+}
+/*step basic info*/
+#label-wrapper{
+    background-color: #e4e7e6;
+    float: left;
+    margin-bottom: 5px;
+    width: 100%;
+}
+/* step questionnaire*/
+#step-questionnaire #meta-inner-question-left-side{
+    float: left;
+    width: 50%;
+}
+#step-questionnaire #meta-inner-question-right-side{
+    float: left;
+    margin-top: 0;
+    width: 50%;
+}
+#question-next-prev-buttons{
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+}
+#label-show-questionnaire{
+    display: block;
+    margin-bottom: 15px;
+}
+#no-question-caption{
+    background-color: #fcf8e3;
+    border: 1px solid #faebcc;
+    color: #8a6d3b;
+    width: 66%;
+    float: left;
+    padding: 5px;
+}
+#create-question-btn{
+    float: left;
+    margin-top: 10px;
+}
+/*question post type description admin panel*/
+.post-type-erp_hr_questionnaire #normal-sortables{
+    display: none;
+}
+#erp-hr-applicant-questionnaire .select2{
+    width: 75% !important;
+}
+/*report*/
+.necessary-link{
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+.dl-link{
+    float: right;
+}
+.table-rec-reports{
+    border-collapse: collapse;
+}
+table.table-rec-reports, .table-rec-reports td, .table-rec-reports th {
+    border: 1px solid #e1e1e1;
+}
+.table-rec-reports th{
+    text-align: center;
+}
+.table-rec-reports .align-center{
+    text-align: center;
+}
+.info-message .fline{
+    font-size: 17px;
+    display: block;
+}
+.info-message .sline{
+
+}
+/*candidate report*/
+
+/*unique style*/
+.unique-row{ /*customize for recruitment*/
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    margin: 0 auto;
+    max-width: 940px;
+    overflow-y: hidden;
+    padding: 10px;
+}
+.unique-loading {
+    background: url(../images/wpspin_light.gif) no-repeat scroll 50% 50% #eaeaea;
+    border-radius: 30px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+    height: 16px;
+    margin: 0 auto;
+    padding: 5px;
+    width: 16px;
+}
+.unique-form-field {
+    margin-bottom: 10px;
+}
+.unique-form-field:before,
+.unique-form-field:after {
+    content: " ";
+    display: table;
+}
+.unique-form-field:after {
+    clear: both;
+}
+.unique-form-field label {
+    float: left;
+    min-width: 150px;
+}
+.unique-form-field input,
+.unique-form-field select,
+.unique-form-field textarea {
+    margin-right: 10px;
+}
+.unique-form-field input[type="checkbox"] {
+    margin-right: 5px;
+}
+.uniq-wrap:before,
+.uniq-wrap:after {
+    content: " ";
+    display: table;
+}
+.uniq-wrap:after {
+    clear: both;
+}
+.uniq-wrap .col {
+    float: left;
+    margin-right: 20px;
+    padding-bottom: 6px;
+}
+.uniq-wrap .col select {
+    width: 200px;
+    border: 1px solid #ccc;
+    height: 28px;
+    line-height: 28px;
+    background: #fff;
+}
+.uniq-wrap .col input {
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 3px 10px;
+    border-radius: 3px;
+    width: 200px;
+}
+.uniq-wrap .col input.small {
+    width: 100px;
+}
+.uniq-wrap .col select,
+.uniq-wrap .col input {
+    margin: 0;
+    outline: 0;
+}
+.uniq-wrap .col select.select2 {
+    min-width: 250px;
+}
+.uniq-wrap .col .select2-container--default .select2-selection--multiple {
+    border: 1px solid #ccc;
+}
+.uniq-wrap .col .select2-container--default .select2-search--inline .select2-search__field {
+    box-shadow: none;
+}
+.uniq-wrap .col .label-inline {
+    color: #484848;
+}
+ul.uniqe-step-progress {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    overflow: hidden;
+    counter-reset: step;
+}
+ul.uniqe-step-progress li {
+    list-style-type: none;
+    /*color: white;*/
+    width: 20%;
+    float: left;
+    position: relative;
+    text-align: center;
+    color: #444;
+}
+ul.uniqe-step-progress li::before {
+    content: counter(step);
+    counter-increment: step;
+    width: 20px;
+    line-height: 20px;
+    display: block;
+    color: #333;
+    background: white;
+    border-radius: 50%;
+    margin: 0 auto 5px auto;
+    padding: 5px;
+}
+ul.uniqe-step-progress li::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: white;
+    position: absolute;
+    left: -50%;
+    top: 14px;
+    z-index: -1;
+    /*put it behind the numbers*/
+}
+ul.uniqe-step-progress li:first-child:after {
+    content: none;
+}
+ul.uniqe-step-progress li.active::before,
+ul.uniqe-step-progress li.active::after {
+    background: #27AE60;
+    color: white;
+}
+/*recruitment step progress*/
+/***************************/
+/***************************/
+/***************************/
+/***************************/
+/***************************/
+ul.recruitment-step-progress {
+    overflow: hidden;
+    counter-reset: step;
+    margin: 0 auto;
+    max-width: 1060px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+ul.recruitment-step-progress li.active{
+    background-color: #0073AA;
+    color: #fff;
+}
+ul.recruitment-step-progress li {
+    list-style-type: none;
+    width: 208px;
+    float: left;
+    position: relative;
+    text-align: center;
+    color: #444;
+    background-color: #fafafa;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+}
+ul.recruitment-step-progress li.active .step-number{
+    background-color: white;
+    border-radius: 11px;
+    color: #0073AA;
+    padding: 3px 8px;
+}
+ul.recruitment-step-progress li.active .step-content{
+    background-color: #0073AA;
+    color: #fff;
+    padding-left: 5px;
+}
+ul.recruitment-step-progress li .step-number{
+    background-color: #E5E5E5;
+    border-radius: 11px;
+    color: #adadad;
+    padding: 3px 8px;
+}
+ul.recruitment-step-progress li .step-content{
+    background-color: #fafafa;
+    color: #a6a6a6;
+    padding-left: 5px;
+}
+ul.recruitment-step-progress li::before {
+    color: #333;
+    background: #E5E5E5;
+    /*width: 20px;*/
+    /*line-height: 20px;*/
+    /*border-radius: 50%;*/
+    /*margin: 0 auto 5px auto;*/
+    /*padding: 5px;*/
+}
+ul.recruitment-step-progress li.active::after {
+    background-color: #0073aa;
+    content: "";
+    height: 34px;
+    position: absolute;
+    right: -17px;
+    top: 7px;
+    transform: rotate(135deg);
+    width: 34px;
+    z-index: 1;
+    /*put it behind the numbers*/
+}
+ul.recruitment-step-progress li.not-active::after {
+    background-color: #fafafa;
+    border-left: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    content: "";
+    height: 34px;
+    position: absolute;
+    right: -17px;
+    top: 7px;
+    transform: rotate(135deg);
+    width: 34px;
+    z-index: 1;
+    /*put it behind the numbers*/
+}
+ul.recruitment-step-progress li.not-active:last-child::after {
+    background-color: transparent;
+    border: 0;
+}
+ul.recruitment-step-progress li.not-active:last-child{
+    width: 228px;
+}
+ul.recruitment-step-progress li.active:last-child::after{
+
+}
+ul.recruitment-step-progress li.active:last-child{
+    width: 228px;
+}
+/***************************/
+/*add candidate page*/
+#job_seeker_apply_form_wrapper{
+
+}
+#job_seeker_apply_form_wrapper .row{
+    width: 100%;
+    margin-bottom: 15px;
+}
+#job_seeker_apply_form_wrapper .row .title{
+    float: left;
+    width: 265px;
+}
+.attacher_name{
+    padding-left: 5px;
+}
+/*validation css*/
+.validation-error-notification{
+    color: red;
+    padding-left: 5px;
+}
+/*no date css in to-do calendar*/
+#todo-calendar-no-date ul{
+
+}
+#todo-calendar-no-date ul li{
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 0;
+    padding: 5px;
+}
+#todo-calendar-no-date ul li:nth-child(even){
+    background-color: #f9f9f9;
+}
+/* css for alertify message*/
+.alertify-log-success{
+    background-color: #fff !important; /*#f2dede !important;*/
+    color: #000 !important;/*#a94442 !important;*/
+    text-shadow: none !important;
+    border-radius: 0 !important;
+    border-left: 4px solid #46b450;
+    padding: 11px 15px !important;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+.alertify-log-error{
+    background-color: #fff !important; /*#f2dede !important;*/
+    color: #000 !important;/*#a94442 !important;*/
+    text-shadow: none !important;
+    border-radius: 0 !important;
+    border-left: 4px solid #ff0000;
+    padding: 11px 15px !important;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+#jobseeker_insertion_message {
+    float: left;
+    color: #ff0000;
+    width: 100%;
+}
+#screen-options-wrap .view-mode{
+    display: none;
+}
+/**/
+section.url-wrap {
+    background: #ffffff;
+    margin: 10px 0;
+    padding: 13px 30px 7px 20px;
+    position: relative;
+}
+section.url-wrap:before,
+section.url-wrap:after {
+    content: " ";
+    display: table;
+}
+section.url-wrap:after {
+    clear: both;
+}
+.facet-list-wrap:before,
+.facet-list-wrap:after {
+    content: " ";
+    display: table;
+}
+.facet-list-wrap:after {
+    clear: both;
+}
+.facet-list-wrap .cond-action {
+    background: #ffffff;
+    margin: 10px 0;
+}
+.facet-list-wrap .add-or {
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+.facet-list-wrap .or {
+    left: -6.5px;
+    position: relative;
+    top: -9px;
+    background: #ffffff;
+    padding: 0 10px;
+    text-decoration: none;
+    color: #3f8abf;
+}
+.facet-list-wrap .or {
+    color: #484848;
+    font-weight: 500;
+    margin-left: -21px;
+    left: 50%;
+    position: absolute;
+    top: -8px;
+    text-transform: uppercase;
+}
+.facet-list-wrap .and {
+    border-bottom: 1px dashed #e1e1e1;
+    margin: .5em 0 1.7em;
+    text-align: center;
+}
+.facet-list-wrap .and a,
+.facet-list-wrap .and span {
+    background: #fff;
+    font-style: normal;
+    margin: 0 10px;
+    padding: 5px;
+    position: relative;
+    top: 9px;
+    text-decoration: none;
+    color: #3f8abf;
+    border-radius: 50%;
+}
+.facet-list-wrap .and span {
+    color: #e1e1e1;
+}
+.facet-list-wrap .facet {
+    padding: 13px 30px 7px 20px;
+    position: relative;
+    border-bottom: 1px solid #E7E7E7;
+    border-top: 1px solid #fff;
+}
+.facet-list-wrap .facet:before,
+.facet-list-wrap .facet:after {
+    content: " ";
+    display: table;
+}
+.facet-list-wrap .facet:after {
+    clear: both;
+}
+.facet-list-wrap .facet a.remove {
+    text-decoration: none;
+    border: 1px solid #E7E7E7;
+    padding: 2px 9px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-top: 3px;
+    display: inline-block;
+}
+.facet-list-wrap .facet-list .facet:last-child {
+    border-bottom: none;
+}
+/* wp list table css for recruitment class */
+.status-green{
+    color: #4ab866;
+}
+.status-ash{
+    color: #c4c4c4;
+}
+.status-yellow{
+    color: darkorange;
+}
+.status-red{
+    color: red;
+}
+.widefat thead tr th.column-view_list{
+    width: 180px;
+}
+.widefat thead tr th.column-applicants{
+    width: 105px;
+}
+/* .widefat thead tr th.column-hiring_lead{
+    width: 180px;
+} */
+.widefat thead tr th.column-created_on{
+    width: 90px;
+}
+.widefat thead tr th.column-status{
+    /*width: 55px;*/
+}
+.widefat thead tr th.column-raction{
+    width: 205px;
+}
+.list-tbl-action-btn{
+    margin-left: 5px !important;
+}
+/* job seeker list table */
+.dacv{
+    margin-left: 5px !important;
+}
+
+.todo-table-container{
+    padding: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+.todo-table{
+
+}
+/*job template css*/
+.job-description{
+    margin-top: 5px;
+    margin-bottom: 25px !important;
+    color: #848484;
+}
+.job-template-caption{
+    font-weight: bold;
+}
+.row-separator{
+    margin: 10px 0;
+}
+.exp-type-list {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    margin: 10px 1px 10px 13px;
+    padding: 6px;
+}
+/*--------------------------------------------------------------------------
+*
+*   Retina
+*
+*-------------------------------------------------------------------------*/
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    .unique-loading {
+        background-image: url(../images/wpspin_light@2x.gif);
+        background-size: 16px 16px;
+    }
+}
+
+/*--------------------------------------------------------------------------
+*
+*   Fixes
+*
+*-------------------------------------------------------------------------*/
+
+.wrap.erp-candidate-detail .filter-box-wrapper {
+    line-height: 0;
+}
+
+.full-regular-text {
+     width: 75% !important;
+}
+
+.job_schema_wrapper {
+    margin-top: 10px;
+    border : 1px solid rgba( 204, 204, 204, 0.47);
+    padding: 10px 0px;
+}
+
+.job_schema_wrapper_title {
+    margin: 0 ;
+}

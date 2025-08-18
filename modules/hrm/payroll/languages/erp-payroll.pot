@@ -1,0 +1,1563 @@
+# Copyright (C) 2020 weDevs
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP ERP - Payroll 1.4.0\n"
+"Report-Msgid-Bugs-To: http://wperp.com/support/\n"
+"POT-Creation-Date: 2020-03-27 06:35:15+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Generator: grunt-wp-i18n 0.4.9\n"
+
+#: erp-payroll.php:241
+msgid "Manage Payroll"
+msgstr ""
+
+#: erp-payroll.php:243 includes/class-admin-menu.php:71
+#: includes/class-admin-menu.php:121
+msgid "Settings"
+msgstr ""
+
+#: erp-payroll.php:262 includes/admin/views/dashboard-payslip-widget.php:28
+#: includes/admin/views/payroll-emp-payslip.php:104
+#: includes/admin/views/tab-templates/payslips-tab.php:48
+#: includes/emails/payslip_template.php:20
+msgid "Payslip"
+msgstr ""
+
+#: erp-payroll.php:270 includes/class-admin-menu.php:51
+#: includes/class-admin-menu.php:81 includes/class-admin-menu.php:239
+#: includes/class-settings.php:13
+msgid "Payroll"
+msgstr ""
+
+#: erp-payroll.php:453
+msgid "<i class=\"fa fa-money\"></i> Payslip"
+msgstr ""
+
+#: includes/admin/class-setup-wizard.php:56
+#: includes/admin/class-setup-wizard.php:252
+msgid "Accounts Setup"
+msgstr ""
+
+#: includes/admin/class-setup-wizard.php:61
+msgid "Payment Method Setup"
+msgstr ""
+
+#: includes/admin/class-setup-wizard.php:66
+msgid "Ready!"
+msgstr ""
+
+#: includes/admin/class-setup-wizard.php:113
+msgid "WP ERP Payroll &rsaquo; Setup Wizard"
+msgstr ""
+
+#: includes/admin/class-setup-wizard.php:131
+msgid "Return to the Payroll Dashboard"
+msgstr ""
+
+#: includes/admin/class-setup-wizard.php:226
+msgid "Continue"
+msgstr ""
+
+#: includes/admin/class-setup-wizard.php:227
+msgid "Skip this step"
+msgstr ""
+
+#: includes/admin/class-setup-wizard.php:238
+msgid "Welcome to ERP Payroll!"
+msgstr ""
+
+#: includes/admin/class-setup-wizard.php:239
+msgid ""
+"Thank you for choosing ERP-Payroll. An easier way to manage your employee "
+"salary! This quick setup wizard will help you configure the basic settings. "
+"<strong>It’s completely optional and shouldn’t take longer than two "
+"minutes.</strong>"
+msgstr ""
+
+#: includes/admin/class-setup-wizard.php:240
+msgid ""
+"No time right now? If you don’t want to go through the wizard, you can skip "
+"and return to the WordPress dashboard. Come back anytime if you change your "
+"mind!"
+msgstr ""
+
+#: includes/admin/class-setup-wizard.php:242
+msgid "Let's Go!"
+msgstr ""
+
+#: includes/admin/class-setup-wizard.php:243
+msgid "Skip"
+msgstr ""
+
+#: includes/admin/class-setup-wizard.php:261
+#: includes/admin/views/payroll-account-settings.php:8
+msgid "Account head for Assets"
+msgstr ""
+
+#: includes/admin/class-setup-wizard.php:298
+#: includes/admin/views/payroll-account-settings.php:45
+msgid "Account head for salary reporting"
+msgstr ""
+
+#: includes/admin/class-setup-wizard.php:335
+#: includes/admin/views/payroll-account-settings.php:82
+msgid "Account head for tax reporting"
+msgstr ""
+
+#: includes/admin/class-setup-wizard.php:396
+msgid "Payment Methods Setup"
+msgstr ""
+
+#: includes/admin/class-setup-wizard.php:401
+#: includes/admin/views/payroll-payment-settings.php:5
+#: includes/class-settings.php:106
+msgid "Select a method"
+msgstr ""
+
+#: includes/admin/class-setup-wizard.php:406
+#: includes/admin/class-setup-wizard.php:410
+#: includes/admin/views/payroll-emp-settings.php:239
+#: includes/admin/views/payroll-payment-settings.php:9
+#: includes/admin/views/payroll-payment-settings.php:11
+#: includes/class-settings.php:95
+msgid "Cash"
+msgstr ""
+
+#: includes/admin/class-setup-wizard.php:415
+#: includes/admin/class-setup-wizard.php:419
+#: includes/admin/views/payroll-emp-settings.php:238
+#: includes/admin/views/payroll-payment-settings.php:14
+#: includes/admin/views/payroll-payment-settings.php:16
+#: includes/class-settings.php:96
+msgid "Cheque"
+msgstr ""
+
+#: includes/admin/class-setup-wizard.php:424
+#: includes/admin/class-setup-wizard.php:428
+#: includes/admin/views/payroll-emp-settings.php:237
+#: includes/admin/views/payroll-payment-settings.php:19
+#: includes/admin/views/payroll-payment-settings.php:21
+#: includes/class-settings.php:97
+msgid "Bank"
+msgstr ""
+
+#: includes/admin/class-setup-wizard.php:437 includes/class-settings.php:115
+msgid "Select a bank"
+msgstr ""
+
+#: includes/admin/class-setup-wizard.php:448
+msgid "Please select a bank for payment."
+msgstr ""
+
+#: includes/admin/class-setup-wizard.php:483
+msgid "Your payroll system is ready!"
+msgstr ""
+
+#: includes/admin/class-setup-wizard.php:487
+msgid "Next Steps &rarr;"
+msgstr ""
+
+#: includes/admin/class-setup-wizard.php:490
+msgid "Add Pay Calendar to pay!"
+msgstr ""
+
+#: includes/admin/views/dashboard-payslip-widget.php:17
+msgid "Sorry! There is no available payslip right now."
+msgstr ""
+
+#: includes/admin/views/dashboard-payslip-widget.php:30
+#: includes/admin/views/dashboard-payslip-widget.php:34
+#: includes/admin/views/dashboard-payslip-widget.php:39
+#: includes/admin/views/dashboard-payslip-widget.php:43
+#: includes/admin/views/dashboard-payslip-widget.php:54
+#: includes/admin/views/dashboard-payslip-widget.php:55
+#: includes/admin/views/dashboard-payslip-widget.php:56
+#: includes/admin/views/dashboard-payslip-widget.php:67
+#: includes/admin/views/dashboard-payslip-widget.php:68
+#: includes/admin/views/dashboard-payslip-widget.php:69
+#: includes/admin/views/dashboard-payslip-widget.php:70
+#: includes/admin/views/dashboard-payslip-widget.php:83
+#: includes/admin/views/dashboard-payslip-widget.php:86
+#: includes/admin/views/dashboard-payslip-widget.php:87
+#: includes/admin/views/dashboard-payslip-widget.php:98
+#: includes/admin/views/dashboard-payslip-widget.php:99
+#: includes/admin/views/dashboard-payslip-widget.php:103
+#: includes/admin/views/dashboard-payslip-widget.php:113
+#: includes/admin/views/dashboard-payslip-widget.php:121
+#: includes/admin/views/payroll-emp-payslip.php:106
+#: includes/admin/views/payroll-emp-payslip.php:110
+#: includes/admin/views/payroll-emp-payslip.php:115
+#: includes/admin/views/payroll-emp-payslip.php:119
+#: includes/admin/views/payroll-emp-payslip.php:130
+#: includes/admin/views/payroll-emp-payslip.php:131
+#: includes/admin/views/payroll-emp-payslip.php:132
+#: includes/admin/views/payroll-emp-payslip.php:143
+#: includes/admin/views/payroll-emp-payslip.php:144
+#: includes/admin/views/payroll-emp-payslip.php:145
+#: includes/admin/views/payroll-emp-payslip.php:146
+#: includes/admin/views/payroll-emp-payslip.php:159
+#: includes/admin/views/payroll-emp-payslip.php:162
+#: includes/admin/views/payroll-emp-payslip.php:163
+#: includes/admin/views/payroll-emp-payslip.php:174
+#: includes/admin/views/payroll-emp-payslip.php:175
+#: includes/admin/views/payroll-emp-payslip.php:179
+#: includes/admin/views/payroll-emp-payslip.php:189
+#: includes/admin/views/payroll-emp-payslip.php:197
+msgid "Loading..."
+msgstr ""
+
+#: includes/admin/views/dashboard-payslip-widget.php:37
+#: includes/admin/views/payroll-emp-payslip.php:113
+#: includes/admin/views/tab-templates/payslips-tab.php:57
+#: includes/emails/payslip_template.php:29
+msgid "Employee Name"
+msgstr ""
+
+#: includes/admin/views/dashboard-payslip-widget.php:41
+#: includes/admin/views/payroll-emp-payslip.php:117
+#: includes/admin/views/tab-templates/payslips-tab.php:61
+#: includes/emails/payslip_template.php:33
+msgid "Employee Address"
+msgstr ""
+
+#: includes/admin/views/dashboard-payslip-widget.php:49
+#: includes/admin/views/js-templates/employee-filter-template.php:7
+#: includes/admin/views/js-templates/pay-item-new-template.php:41
+#: includes/admin/views/pay-calendar-creation-form.php:142
+#: includes/admin/views/payroll-emp-payslip.php:125
+#: includes/admin/views/tab-templates/approve-tab.php:38
+#: includes/admin/views/tab-templates/employees-tab.php:42
+#: includes/admin/views/tab-templates/payslips-tab.php:69
+#: includes/emails/payslip_template.php:41
+msgid "Department"
+msgstr ""
+
+#: includes/admin/views/dashboard-payslip-widget.php:50
+#: includes/admin/views/js-templates/employee-filter-template.php:8
+#: includes/admin/views/js-templates/pay-item-new-template.php:65
+#: includes/admin/views/pay-calendar-creation-form.php:143
+#: includes/admin/views/payroll-emp-payslip.php:126
+#: includes/admin/views/tab-templates/employees-tab.php:43
+#: includes/admin/views/tab-templates/payslips-tab.php:70
+#: includes/emails/payslip_template.php:42
+msgid "Designation"
+msgstr ""
+
+#: includes/admin/views/dashboard-payslip-widget.php:51
+#: includes/admin/views/payroll-emp-payslip.php:127
+#: includes/admin/views/tab-templates/payslips-tab.php:71
+#: includes/emails/payslip_template.php:43
+msgid "Period"
+msgstr ""
+
+#: includes/admin/views/dashboard-payslip-widget.php:61
+#: includes/admin/views/payroll-emp-payslip.php:137
+#: includes/admin/views/payrun-overview.php:126
+#: includes/admin/views/tab-templates/approve-tab.php:20
+#: includes/admin/views/tab-templates/employees-tab.php:28
+#: includes/admin/views/tab-templates/payslips-tab.php:82
+#: includes/class-payrun-list.php:75 includes/emails/payslip_template.php:53
+msgid "Payment Date"
+msgstr ""
+
+#: includes/admin/views/dashboard-payslip-widget.php:62
+#: includes/admin/views/payroll-emp-payslip.php:138
+#: includes/admin/views/tab-templates/approve-tab.php:39
+#: includes/admin/views/tab-templates/payslips-tab.php:83
+#: includes/emails/payslip_template.php:54
+msgid "Tax Number"
+msgstr ""
+
+#: includes/admin/views/dashboard-payslip-widget.php:63
+#: includes/admin/views/payroll-emp-payslip.php:139
+#: includes/admin/views/payroll-emp-settings.php:82
+#: includes/admin/views/payroll-emp-settings.php:115
+#: includes/admin/views/tab-templates/payslips-tab.php:84
+#: includes/emails/payslip_template.php:55
+msgid "Bank Account Number"
+msgstr ""
+
+#: includes/admin/views/dashboard-payslip-widget.php:64
+#: includes/admin/views/payroll-emp-payslip.php:140
+#: includes/admin/views/payroll-emp-settings.php:233
+#: includes/admin/views/tab-templates/payslips-tab.php:85
+#: includes/emails/payslip_template.php:56
+msgid "Payment Method"
+msgstr ""
+
+#: includes/admin/views/dashboard-payslip-widget.php:79
+#: includes/admin/views/payroll-emp-payslip.php:155
+#: includes/admin/views/tab-templates/payslips-tab.php:100
+#: includes/emails/payslip_template.php:71
+msgid "Payments"
+msgstr ""
+
+#: includes/admin/views/dashboard-payslip-widget.php:82
+#: includes/admin/views/payroll-emp-payslip.php:158
+#: includes/admin/views/tab-templates/approve-tab.php:40
+#: includes/admin/views/tab-templates/employees-tab.php:44
+#: includes/admin/views/tab-templates/payslips-tab.php:103
+#: includes/admin/views/tab-templates/variable-input-tab.php:41
+#: includes/emails/payslip_template.php:74
+msgid "Pay Basic"
+msgstr ""
+
+#: includes/admin/views/dashboard-payslip-widget.php:95
+#: includes/admin/views/payroll-emp-payslip.php:171
+#: includes/admin/views/reports/summary-report.php:37
+#: includes/admin/views/tab-templates/payslips-tab.php:116
+#: includes/emails/payslip_template.php:94
+msgid "Deductions"
+msgstr ""
+
+#: includes/admin/views/dashboard-payslip-widget.php:102
+#: includes/admin/views/payroll-emp-payslip.php:178
+#: includes/admin/views/tab-templates/payslips-tab.php:123
+#: includes/admin/views/tab-templates/variable-input-tab.php:74
+#: includes/emails/payslip_template.php:108
+msgid "Total Deduction"
+msgstr ""
+
+#: includes/admin/views/dashboard-payslip-widget.php:112
+#: includes/admin/views/payroll-emp-payslip.php:188
+#: includes/admin/views/tab-templates/payslips-tab.php:133
+#: includes/admin/views/tab-templates/variable-input-tab.php:56
+#: includes/emails/payslip_template.php:118
+msgid "Total Payment"
+msgstr ""
+
+#: includes/admin/views/dashboard-payslip-widget.php:120
+#: includes/admin/views/payroll-emp-payslip.php:60
+#: includes/admin/views/payroll-emp-payslip.php:196
+#: includes/admin/views/reports/employee-report.php:37
+#: includes/admin/views/reports/summary-report.php:39
+#: includes/admin/views/tab-templates/approve-tab.php:44
+#: includes/admin/views/tab-templates/employees-tab.php:48
+#: includes/admin/views/tab-templates/payslips-tab.php:141
+#: includes/admin/views/tab-templates/variable-input-tab.php:80
+#: includes/emails/payslip_template.php:126
+msgid "Net Pay"
+msgstr ""
+
+#: includes/admin/views/js-templates/employee-filter-template.php:5
+msgid "Filter by Department or Designation"
+msgstr ""
+
+#: includes/admin/views/js-templates/employee-filter-template.php:13
+#: includes/admin/views/pay-calendar-creation-form.php:86
+msgid "Select Department"
+msgstr ""
+
+#: includes/admin/views/js-templates/employee-filter-template.php:29
+#: includes/admin/views/pay-calendar-creation-form.php:105
+msgid "Select Designation"
+msgstr ""
+
+#: includes/admin/views/js-templates/pay-item-category-new-template.php:7
+msgid "Pay item category"
+msgstr ""
+
+#: includes/admin/views/js-templates/pay-item-category-new-template.php:11
+msgid "Select Pay item category type"
+msgstr ""
+
+#: includes/admin/views/js-templates/pay-item-category-new-template.php:14
+#: includes/class-settings.php:160
+msgid "Addition"
+msgstr ""
+
+#: includes/admin/views/js-templates/pay-item-category-new-template.php:15
+msgid "Subtract"
+msgstr ""
+
+#: includes/admin/views/js-templates/pay-item-category-template.php:4
+msgid "Pay item category (required)"
+msgstr ""
+
+#: includes/admin/views/js-templates/pay-item-new-template.php:4
+#: includes/admin/views/js-templates/pay-item-template.php:4
+msgid "Pay item (required)"
+msgstr ""
+
+#: includes/admin/views/js-templates/pay-item-new-template.php:9
+#: includes/admin/views/js-templates/pay-item-template.php:9
+msgid "Select Pay item category (required)"
+msgstr ""
+
+#: includes/admin/views/js-templates/pay-item-new-template.php:24
+msgid "Account for Reporting"
+msgstr ""
+
+#: includes/admin/views/js-templates/pay-item-new-template.php:45
+msgid "Apply to all department"
+msgstr ""
+
+#: includes/admin/views/js-templates/pay-item-new-template.php:69
+msgid "Apply to all designation"
+msgstr ""
+
+#: includes/admin/views/js-templates/pay-item-new-template.php:89
+#: includes/admin/views/pay-calendar-creation-form.php:139
+#: includes/admin/views/reports/summary-report.php:34
+#: includes/admin/views/tab-templates/approve-tab.php:37
+#: includes/admin/views/tab-templates/employees-tab.php:41
+msgid "Employee"
+msgstr ""
+
+#: includes/admin/views/js-templates/pay-item-new-template.php:93
+msgid "Apply to all employee"
+msgstr ""
+
+#: includes/admin/views/js-templates/pay-item-new-template.php:99
+msgid "-- All Employee --"
+msgstr ""
+
+#: includes/admin/views/js-templates/pay-item-new-template.php:109
+msgid "Amount"
+msgstr ""
+
+#: includes/admin/views/js-templates/pay-item-new-template.php:113
+#: includes/admin/views/js-templates/pay-item-template.php:20
+msgid "Description"
+msgstr ""
+
+#: includes/admin/views/js-templates/payitem-utility-template.php:2
+msgid "Travel Allowance"
+msgstr ""
+
+#: includes/admin/views/js-templates/payitem-utility-template.php:3
+msgid "Dearness Allowance"
+msgstr ""
+
+#: includes/admin/views/js-templates/payitem-utility-template.php:4
+msgid "Accommodation Allowance"
+msgstr ""
+
+#: includes/admin/views/js-templates/payitem-utility-template.php:5
+msgid "City Compensatory Allowance"
+msgstr ""
+
+#: includes/admin/views/pay-calendar-creation-form.php:5
+msgid "Pay Calendar Settings"
+msgstr ""
+
+#: includes/admin/views/pay-calendar-creation-form.php:13
+msgid "Calendar Name"
+msgstr ""
+
+#: includes/admin/views/pay-calendar-creation-form.php:18
+msgid "Calendar Type"
+msgstr ""
+
+#: includes/admin/views/pay-calendar-creation-form.php:20
+msgid "Weekly"
+msgstr ""
+
+#: includes/admin/views/pay-calendar-creation-form.php:21
+msgid "Bi-Weekly"
+msgstr ""
+
+#: includes/admin/views/pay-calendar-creation-form.php:22
+msgid "Monthly"
+msgstr ""
+
+#: includes/admin/views/pay-calendar-creation-form.php:27
+#: includes/admin/views/pay-calendar-creation-form.php:37
+msgid "Normal Pay Day"
+msgstr ""
+
+#: includes/admin/views/pay-calendar-creation-form.php:29
+#: includes/admin/views/pay-calendar-creation-form.php:39
+msgid "Select week day"
+msgstr ""
+
+#: includes/admin/views/pay-calendar-creation-form.php:47
+msgid "Pay Day Mode"
+msgstr ""
+
+#: includes/admin/views/pay-calendar-creation-form.php:49
+msgid "Last working day of the month"
+msgstr ""
+
+#: includes/admin/views/pay-calendar-creation-form.php:50
+msgid "Last day of the week each month"
+msgstr ""
+
+#: includes/admin/views/pay-calendar-creation-form.php:51
+msgid "Specific day each month"
+msgstr ""
+
+#: includes/admin/views/pay-calendar-creation-form.php:54
+msgid "Select a pay mode"
+msgstr ""
+
+#: includes/admin/views/pay-calendar-creation-form.php:61
+msgid "Pay day (1-31)"
+msgstr ""
+
+#: includes/admin/views/pay-calendar-creation-form.php:65
+msgid "Add Employee"
+msgstr ""
+
+#: includes/admin/views/pay-calendar-creation-form.php:70
+msgid "Pay Calendar Setup"
+msgstr ""
+
+#: includes/admin/views/pay-calendar-creation-form.php:71
+msgid "Pay Calendar Modification"
+msgstr ""
+
+#: includes/admin/views/pay-calendar-creation-form.php:82
+msgid "Select Employee"
+msgstr ""
+
+#: includes/admin/views/pay-calendar-creation-form.php:125
+msgid "Add employee to list"
+msgstr ""
+
+#: includes/admin/views/pay-calendar-creation-form.php:128
+msgid "Add employee"
+msgstr ""
+
+#: includes/admin/views/pay-calendar-creation-form.php:141
+msgid "Email"
+msgstr ""
+
+#: includes/admin/views/pay-calendar-creation-form.php:159
+msgid "Create Pay Calendar"
+msgstr ""
+
+#: includes/admin/views/pay-calendar-creation-form.php:162
+msgid "Update Pay Calendar"
+msgstr ""
+
+#: includes/admin/views/pay-calendar.php:3
+#: includes/admin/views/payrun-overview.php:31 includes/class-admin-menu.php:59
+#: includes/class-admin-menu.php:97
+msgid "Pay Calendar"
+msgstr ""
+
+#: includes/admin/views/pay-calendar.php:6
+msgid "Add New Pay Calendar"
+msgstr ""
+
+#: includes/admin/views/pay-calendar.php:13
+msgid "No Pay Calendar Found!"
+msgstr ""
+
+#: includes/admin/views/pay-calendar.php:20
+msgid "Calendar Name :"
+msgstr ""
+
+#: includes/admin/views/pay-calendar.php:21
+msgid "Calendar Type :"
+msgstr ""
+
+#: includes/admin/views/pay-calendar.php:22
+msgid "No of Employee :"
+msgstr ""
+
+#: includes/admin/views/pay-calendar.php:35
+msgid "Start Payrun"
+msgstr ""
+
+#: includes/admin/views/payroll-emp-payslip.php:14
+msgid "Detail information about payslip"
+msgstr ""
+
+#: includes/admin/views/payroll-emp-payslip.php:20
+msgid "Year"
+msgstr ""
+
+#: includes/admin/views/payroll-emp-payslip.php:35
+#: includes/admin/views/payroll-emp-payslip.php:58
+msgid "Month"
+msgstr ""
+
+#: includes/admin/views/payroll-emp-payslip.php:48
+#: includes/admin/views/payrun.php:12
+#: includes/admin/views/reports/employee-report.php:15
+#: includes/admin/views/reports/summary-report.php:14
+msgid "Search"
+msgstr ""
+
+#: includes/admin/views/payroll-emp-payslip.php:57
+msgid "SL"
+msgstr ""
+
+#: includes/admin/views/payroll-emp-payslip.php:59
+msgid "Bank A/C"
+msgstr ""
+
+#: includes/admin/views/payroll-emp-payslip.php:61
+#: includes/class-payrun-list.php:79 includes/class-settings.php:176
+msgid "Action"
+msgstr ""
+
+#: includes/admin/views/payroll-emp-payslip.php:89
+msgid "Sorry! Currently there is no available data right now."
+msgstr ""
+
+#: includes/admin/views/payroll-emp-payslip.php:226
+msgid "Sorry, you are not allowed to access this page."
+msgstr ""
+
+#: includes/admin/views/payroll-emp-settings.php:10
+msgid "Detail information at a glance"
+msgstr ""
+
+#: includes/admin/views/payroll-emp-settings.php:14
+msgid "Fixed Allowance"
+msgstr ""
+
+#: includes/admin/views/payroll-emp-settings.php:17
+#: includes/admin/views/payroll-emp-settings.php:31
+#: includes/class-settings.php:154 includes/class-settings.php:174
+msgid "Pay Item"
+msgstr ""
+
+#: includes/admin/views/payroll-emp-settings.php:18
+#: includes/admin/views/payroll-emp-settings.php:32
+msgid "Pay Item Amount"
+msgstr ""
+
+#: includes/admin/views/payroll-emp-settings.php:28
+msgid "Fixed Deduction"
+msgstr ""
+
+#: includes/admin/views/payroll-emp-settings.php:42
+msgid "Fixed Tax"
+msgstr ""
+
+#: includes/admin/views/payroll-emp-settings.php:45
+msgid "Tax Caption"
+msgstr ""
+
+#: includes/admin/views/payroll-emp-settings.php:46
+#: includes/admin/views/reports/employee-report.php:36
+msgid "Tax Amount"
+msgstr ""
+
+#: includes/admin/views/payroll-emp-settings.php:65
+msgid "Payroll Basic and Tax Info"
+msgstr ""
+
+#: includes/admin/views/payroll-emp-settings.php:70
+#: includes/admin/views/payroll-emp-settings.php:103
+msgid "Employee Tax Number"
+msgstr ""
+
+#: includes/admin/views/payroll-emp-settings.php:75
+#: includes/admin/views/payroll-emp-settings.php:108
+msgid "Basic Pay"
+msgstr ""
+
+#: includes/admin/views/payroll-emp-settings.php:87
+#: includes/admin/views/payroll-emp-settings.php:120
+msgid "Bank Account Name"
+msgstr ""
+
+#: includes/admin/views/payroll-emp-settings.php:92
+#: includes/admin/views/payroll-emp-settings.php:125
+msgid "Bank Name"
+msgstr ""
+
+#: includes/admin/views/payroll-emp-settings.php:139
+msgid "Fixed Allowance Payments"
+msgstr ""
+
+#: includes/admin/views/payroll-emp-settings.php:143
+msgid "Payitem"
+msgstr ""
+
+#: includes/admin/views/payroll-emp-settings.php:154
+msgid "Payitem payment"
+msgstr ""
+
+#: includes/admin/views/payroll-emp-settings.php:161
+#: includes/admin/views/payroll-emp-settings.php:191
+#: includes/admin/views/payroll-emp-settings.php:221
+msgid "Save"
+msgstr ""
+
+#: includes/admin/views/payroll-emp-settings.php:169
+msgid "Fixed Deductions Payments"
+msgstr ""
+
+#: includes/admin/views/payroll-emp-settings.php:173
+msgid "Deduction item"
+msgstr ""
+
+#: includes/admin/views/payroll-emp-settings.php:184
+msgid "Deduction payment"
+msgstr ""
+
+#: includes/admin/views/payroll-emp-settings.php:199
+#: includes/admin/views/payroll-emp-settings.php:203
+#: includes/admin/views/tab-templates/approve-tab.php:43
+#: includes/admin/views/tab-templates/employees-tab.php:47
+msgid "Tax"
+msgstr ""
+
+#: includes/admin/views/payroll-emp-settings.php:214
+msgid "Tax amount"
+msgstr ""
+
+#: includes/admin/views/payroll-emp-settings.php:229
+msgid "Payment Detail"
+msgstr ""
+
+#: includes/admin/views/payroll-emp-settings.php:244
+msgid "Submit Payment Info"
+msgstr ""
+
+#: includes/admin/views/payrun-overview.php:2
+msgid "Payroll Overview"
+msgstr ""
+
+#: includes/admin/views/payrun-overview.php:8
+msgid "Checklist"
+msgstr ""
+
+#: includes/admin/views/payrun-overview.php:21
+msgid "Setup Wizard"
+msgstr ""
+
+#: includes/admin/views/payrun-overview.php:41
+#: includes/admin/views/payrun-overview.php:125
+#: includes/admin/views/tab-templates/approve-tab.php:11
+#: includes/admin/views/tab-templates/employees-tab.php:13
+#: includes/admin/views/tab-templates/payslips-tab.php:11
+#: includes/admin/views/tab-templates/variable-input-tab.php:11
+#: includes/class-admin-menu.php:63 includes/class-admin-menu.php:105
+#: includes/class-payrun-list.php:74
+msgid "Pay Run"
+msgstr ""
+
+#: includes/admin/views/payrun-overview.php:60
+msgid "Total Expenses"
+msgstr ""
+
+#: includes/admin/views/payrun-overview.php:64
+#: includes/admin/views/payrun-overview.php:110
+msgid "View Detail"
+msgstr ""
+
+#: includes/admin/views/payrun-overview.php:74
+msgid "Total Pay Calendar Created"
+msgstr ""
+
+#: includes/admin/views/payrun-overview.php:78
+msgid "View Pay Calendar"
+msgstr ""
+
+#: includes/admin/views/payrun-overview.php:87
+msgid "Pay Calendar Approved"
+msgstr ""
+
+#: includes/admin/views/payrun-overview.php:91
+msgid "View Pay Run List"
+msgstr ""
+
+#: includes/admin/views/payrun-overview.php:106
+msgid "Spent on Previous Month"
+msgstr ""
+
+#: includes/admin/views/payrun-overview.php:119
+msgid "Latest 5 Pay Run Records"
+msgstr ""
+
+#: includes/admin/views/payrun-overview.php:121
+msgid "No record found."
+msgstr ""
+
+#: includes/admin/views/payrun-overview.php:124
+#: includes/class-payrun-list.php:73
+msgid "Pay Period"
+msgstr ""
+
+#: includes/admin/views/payrun-overview.php:127
+#: includes/class-payrun-list.php:76 includes/functions-payroll.php:849
+msgid "Employees"
+msgstr ""
+
+#: includes/admin/views/payrun-overview.php:128
+#: includes/class-payrun-list.php:77
+msgid "Net Pay + Tax"
+msgstr ""
+
+#: includes/admin/views/payrun-overview.php:129
+#: includes/class-payrun-list.php:78
+msgid "Status"
+msgstr ""
+
+#: includes/admin/views/payrun.php:2
+msgid "Pay Runs"
+msgstr ""
+
+#: includes/admin/views/reports/employee-report.php:2
+#: includes/admin/views/reports/summary-report.php:2
+msgid "Payroll Report"
+msgstr ""
+
+#: includes/admin/views/reports/employee-report.php:9
+msgid "Employee Reports"
+msgstr ""
+
+#: includes/admin/views/reports/employee-report.php:16
+#: includes/admin/views/reports/summary-report.php:15
+msgid "Clear"
+msgstr ""
+
+#: includes/admin/views/reports/employee-report.php:22
+#: includes/admin/views/reports/summary-report.php:27
+msgid "Export to CSV"
+msgstr ""
+
+#: includes/admin/views/reports/employee-report.php:29
+msgid "Employee / Date"
+msgstr ""
+
+#: includes/admin/views/reports/employee-report.php:30
+msgid "Gross Wages"
+msgstr ""
+
+#: includes/admin/views/reports/employee-report.php:31
+msgid "Allowance Section"
+msgstr ""
+
+#: includes/admin/views/reports/employee-report.php:32
+msgid "Allowance Amount"
+msgstr ""
+
+#: includes/admin/views/reports/employee-report.php:33
+msgid "Deduction Section"
+msgstr ""
+
+#: includes/admin/views/reports/employee-report.php:34
+msgid "Deduction Amount"
+msgstr ""
+
+#: includes/admin/views/reports/employee-report.php:35
+msgid "Tax Title"
+msgstr ""
+
+#: includes/admin/views/reports/summary-report.php:8
+msgid "Summary Reports"
+msgstr ""
+
+#: includes/admin/views/reports/summary-report.php:21
+msgid "Details to CSV"
+msgstr ""
+
+#: includes/admin/views/reports/summary-report.php:24
+msgid "Bank report to CSV"
+msgstr ""
+
+#: includes/admin/views/reports/summary-report.php:35
+msgid "Basic"
+msgstr ""
+
+#: includes/admin/views/reports/summary-report.php:36
+msgid "Allowances"
+msgstr ""
+
+#: includes/admin/views/reports/summary-report.php:38
+msgid "Taxes"
+msgstr ""
+
+#: includes/admin/views/reports/summary-report.php:52
+msgid "Total :"
+msgstr ""
+
+#: includes/admin/views/reports.php:2 includes/class-admin-menu.php:67
+#: includes/class-admin-menu.php:113
+msgid "Reports"
+msgstr ""
+
+#: includes/admin/views/reports.php:12
+msgid "Pay Run by Employee"
+msgstr ""
+
+#: includes/admin/views/reports.php:14
+msgid "Pay Run report detail by employee"
+msgstr ""
+
+#: includes/admin/views/reports.php:15 includes/admin/views/reports.php:29
+msgid "View Report"
+msgstr ""
+
+#: includes/admin/views/reports.php:26
+msgid "Pay Run Summary"
+msgstr ""
+
+#: includes/admin/views/reports.php:28
+msgid "Pay Run Summary reports"
+msgstr ""
+
+#: includes/admin/views/tab-templates/approve-tab.php:26
+msgid "Ready to approve"
+msgstr ""
+
+#: includes/admin/views/tab-templates/approve-tab.php:41
+#: includes/admin/views/tab-templates/employees-tab.php:45
+msgid "Payment"
+msgstr ""
+
+#: includes/admin/views/tab-templates/approve-tab.php:42
+#: includes/admin/views/tab-templates/employees-tab.php:46
+msgid "Deduction"
+msgstr ""
+
+#: includes/admin/views/tab-templates/approve-tab.php:93
+msgid "Approve"
+msgstr ""
+
+#: includes/admin/views/tab-templates/approve-tab.php:96
+msgid "Undo Approve"
+msgstr ""
+
+#: includes/admin/views/tab-templates/approve-tab.php:100
+#: includes/admin/views/tab-templates/payslips-tab.php:155
+#: includes/admin/views/tab-templates/variable-input-tab.php:139
+msgid "&larr; Back"
+msgstr ""
+
+#: includes/admin/views/tab-templates/employees-tab.php:22
+msgid "From Date"
+msgstr ""
+
+#: includes/admin/views/tab-templates/employees-tab.php:24
+msgid "To Date"
+msgstr ""
+
+#: includes/admin/views/tab-templates/employees-tab.php:35
+msgid "Active Employees"
+msgstr ""
+
+#: includes/admin/views/tab-templates/employees-tab.php:95
+#: includes/admin/views/tab-templates/payslips-tab.php:153
+#: includes/admin/views/tab-templates/variable-input-tab.php:138
+msgid "Next &rarr;"
+msgstr ""
+
+#: includes/admin/views/tab-templates/payslips-tab.php:19
+#: includes/emails/class-email-payslip-custom.php:16
+msgid "Employee Payslip"
+msgstr ""
+
+#: includes/admin/views/tab-templates/payslips-tab.php:43
+msgid "Print Payslip"
+msgstr ""
+
+#: includes/admin/views/tab-templates/payslips-tab.php:76
+msgid "to"
+msgstr ""
+
+#: includes/admin/views/tab-templates/variable-input-tab.php:22
+msgid "Employee profile information"
+msgstr ""
+
+#: includes/admin/views/tab-templates/variable-input-tab.php:91
+msgid "Additional allowance or deduction for this pay run only"
+msgstr ""
+
+#: includes/admin/views/tab-templates/variable-input-tab.php:99
+msgid "Additional Pay"
+msgstr ""
+
+#: includes/admin/views/tab-templates/variable-input-tab.php:111
+msgid "Payments (Non-Taxable)"
+msgstr ""
+
+#: includes/admin/views/tab-templates/variable-input-tab.php:123
+msgid "Additional Deduction"
+msgstr ""
+
+#: includes/class-admin-menu.php:55
+msgid "Overview"
+msgstr ""
+
+#: includes/class-admin-menu.php:89
+msgid "Dashboard"
+msgstr ""
+
+#: includes/class-admin-menu.php:240
+msgid "HR Management"
+msgstr ""
+
+#: includes/class-admin-menu.php:241
+msgid "ERP Settings"
+msgstr ""
+
+#: includes/class-admin-menu.php:311 includes/class-admin-menu.php:486
+msgid "Applicable"
+msgstr ""
+
+#: includes/class-admin-menu.php:312 includes/class-admin-menu.php:487
+msgid "Not Applicable"
+msgstr ""
+
+#: includes/class-admin-menu.php:317 includes/class-admin-menu.php:492
+msgid "Edit pay item category"
+msgstr ""
+
+#: includes/class-admin-menu.php:318 includes/class-admin-menu.php:325
+#: includes/class-admin-menu.php:332 includes/class-admin-menu.php:493
+#: includes/class-admin-menu.php:500 includes/class-admin-menu.php:507
+msgid "Submit"
+msgstr ""
+
+#: includes/class-admin-menu.php:319 includes/class-admin-menu.php:494
+msgid "Are you sure you want to delete this pay item category?"
+msgstr ""
+
+#: includes/class-admin-menu.php:320 includes/class-admin-menu.php:495
+msgid "Please enter pay item category"
+msgstr ""
+
+#: includes/class-admin-menu.php:323 includes/class-admin-menu.php:498
+msgid "Add new pay item"
+msgstr ""
+
+#: includes/class-admin-menu.php:324 includes/class-admin-menu.php:499
+msgid "Edit pay item"
+msgstr ""
+
+#: includes/class-admin-menu.php:326 includes/class-admin-menu.php:501
+msgid "Are you sure you want to delete this pay item?"
+msgstr ""
+
+#: includes/class-admin-menu.php:327 includes/class-admin-menu.php:502
+msgid "Are you sure you want to change this status?"
+msgstr ""
+
+#: includes/class-admin-menu.php:328 includes/class-admin-menu.php:334
+#: includes/class-admin-menu.php:503 includes/class-admin-menu.php:509
+msgid "Please enter pay item"
+msgstr ""
+
+#: includes/class-admin-menu.php:331 includes/class-admin-menu.php:506
+msgid "Edit salary settings"
+msgstr ""
+
+#: includes/class-admin-menu.php:333 includes/class-admin-menu.php:508
+msgid "Are you sure you want to delete this salary settings?"
+msgstr ""
+
+#: includes/class-admin-menu.php:337 includes/class-admin-menu.php:512
+msgid "Filter employee"
+msgstr ""
+
+#: includes/class-admin-menu.php:338 includes/class-admin-menu.php:513
+#: includes/class-payrun-list.php:47
+msgid "Filter"
+msgstr ""
+
+#: includes/class-admin-menu.php:341 includes/class-admin-menu.php:516
+msgid "Applied employee list"
+msgstr ""
+
+#: includes/class-admin-menu.php:342 includes/class-admin-menu.php:517
+msgid "Close"
+msgstr ""
+
+#: includes/class-admin-menu.php:344 includes/class-admin-menu.php:519
+msgid "Are you sure you want to approve these payments?"
+msgstr ""
+
+#: includes/class-admin-menu.php:345 includes/class-admin-menu.php:520
+msgid "Are you sure you want to remove this payrun?"
+msgstr ""
+
+#: includes/class-admin-menu.php:346 includes/class-admin-menu.php:521
+msgid ""
+"Are you sure you want to remove this employee information from approved "
+"list?"
+msgstr ""
+
+#: includes/class-admin-menu.php:347 includes/class-admin-menu.php:522
+#: includes/class-ajax.php:3079
+msgid "Payrun deleted successfully"
+msgstr ""
+
+#: includes/class-admin-menu.php:348 includes/class-admin-menu.php:523
+msgid "Are you sure you want to copy this payrun to new payrun?"
+msgstr ""
+
+#: includes/class-admin-menu.php:350 includes/class-admin-menu.php:525
+msgid "Are you sure you want to send this payslip to email?"
+msgstr ""
+
+#: includes/class-admin-menu.php:351 includes/class-admin-menu.php:356
+#: includes/class-admin-menu.php:526 includes/class-admin-menu.php:531
+#: includes/class-ajax.php:2122
+msgid "Payslip sent successfully"
+msgstr ""
+
+#: includes/class-admin-menu.php:354 includes/class-admin-menu.php:529
+msgid "Are you sure you want to send email to below employee(s)?"
+msgstr ""
+
+#: includes/class-admin-menu.php:355 includes/class-admin-menu.php:530
+msgid "Are you sure you want to proceed batch pay to below employees?"
+msgstr ""
+
+#: includes/class-admin-menu.php:360 includes/class-admin-menu.php:535
+msgid "Please provide pay item category name."
+msgstr ""
+
+#: includes/class-admin-menu.php:361 includes/class-admin-menu.php:536
+msgid "Please select pay item category name."
+msgstr ""
+
+#: includes/class-admin-menu.php:362 includes/class-admin-menu.php:537
+msgid "Please provide only letters in pay item category name."
+msgstr ""
+
+#: includes/class-admin-menu.php:363 includes/class-admin-menu.php:538
+msgid "Please provide pay item name."
+msgstr ""
+
+#: includes/class-admin-menu.php:364 includes/class-admin-menu.php:539
+msgid "Please select a department at-least."
+msgstr ""
+
+#: includes/class-admin-menu.php:365 includes/class-admin-menu.php:540
+msgid "Please provide only letters in pay item name."
+msgstr ""
+
+#: includes/class-admin-menu.php:366 includes/class-admin-menu.php:541
+msgid ""
+"Percentage value and amount value cannot be empty. Please provide "
+"percentage or amount value."
+msgstr ""
+
+#: includes/class-admin-menu.php:367 includes/class-admin-menu.php:542
+msgid ""
+"You cannot provide percentage and amount value simultaneously. Please "
+"provide percentage or amount value."
+msgstr ""
+
+#: includes/class-admin-menu.php:368 includes/class-admin-menu.php:543
+msgid "Please provide number value in percentage value."
+msgstr ""
+
+#: includes/class-admin-menu.php:369 includes/class-admin-menu.php:544
+msgid "Please provide number value in ordinary rate."
+msgstr ""
+
+#: includes/class-admin-menu.php:370 includes/class-admin-menu.php:545
+msgid "Please provide number value in amount value."
+msgstr ""
+
+#: includes/class-admin-menu.php:371 includes/class-admin-menu.php:546
+msgid "Please select a department or a designation at-least."
+msgstr ""
+
+#: includes/class-admin-menu.php:372 includes/class-admin-menu.php:547
+msgid "Please select payment method."
+msgstr ""
+
+#: includes/class-admin-menu.php:373 includes/class-admin-menu.php:548
+msgid ""
+"Please select any department or designation to bring employee in the below "
+"list."
+msgstr ""
+
+#: includes/class-admin-menu.php:374 includes/class-admin-menu.php:549
+msgid "Please select calendar type."
+msgstr ""
+
+#: includes/class-admin-menu.php:375 includes/class-admin-menu.php:550
+msgid "Please enter calendar name."
+msgstr ""
+
+#: includes/class-admin-menu.php:376 includes/class-admin-menu.php:551
+msgid "You did not select any employee."
+msgstr ""
+
+#: includes/class-admin-menu.php:378 includes/class-admin-menu.php:553
+msgid "Are you sure you want to remove this pay calendar?"
+msgstr ""
+
+#: includes/class-admin-menu.php:379 includes/class-admin-menu.php:554
+msgid "Are you sure you want to remove?"
+msgstr ""
+
+#: includes/class-admin-menu.php:380 includes/class-admin-menu.php:555
+msgid "Are you sure you want to create this pay calendar?"
+msgstr ""
+
+#: includes/class-admin-menu.php:381 includes/class-admin-menu.php:556
+msgid "Are you sure you want to update this pay calendar?"
+msgstr ""
+
+#: includes/class-admin-menu.php:382 includes/class-admin-menu.php:557
+msgid "Are you sure you want to start a new pay run for your selected calendar?"
+msgstr ""
+
+#: includes/class-admin-menu.php:383 includes/class-admin-menu.php:558
+msgid "Are you sure you want to approve this pay run?"
+msgstr ""
+
+#: includes/class-admin-menu.php:384 includes/class-admin-menu.php:559
+msgid "Are you sure you want to undo this approved pay run?"
+msgstr ""
+
+#: includes/class-ajax.php:602
+msgid "Please choos another calendar type, this calendar type already exist!"
+msgstr ""
+
+#: includes/class-ajax.php:688
+msgid "Pay calendar created successfully"
+msgstr ""
+
+#: includes/class-ajax.php:710
+msgid "Cannot Delete. This Pay Calendar have one or more transation"
+msgstr ""
+
+#: includes/class-ajax.php:739
+msgid "Pay calendar revmoed successfully"
+msgstr ""
+
+#: includes/class-ajax.php:906
+msgid "Pay calendar updated successfully"
+msgstr ""
+
+#: includes/class-ajax.php:950
+msgid "Pay Type is empty!"
+msgstr ""
+
+#: includes/class-ajax.php:952
+msgid "Pay Item is empty!"
+msgstr ""
+
+#: includes/class-ajax.php:954
+msgid "Please select amount type!"
+msgstr ""
+
+#: includes/class-ajax.php:967
+msgid "Pay Item Added Successfully"
+msgstr ""
+
+#: includes/class-ajax.php:986 includes/class-ajax.php:2170
+msgid "Pay item cannot be empty!"
+msgstr ""
+
+#: includes/class-ajax.php:989
+msgid "Given pay item already exist! Please choose another name."
+msgstr ""
+
+#: includes/class-ajax.php:1004
+msgid "Pay item edited successfully"
+msgstr ""
+
+#: includes/class-ajax.php:1038
+msgid "Cannot Delete. This Pay item already applied to one or more employees"
+msgstr ""
+
+#: includes/class-ajax.php:1048
+msgid "Pay item deleted successfully"
+msgstr ""
+
+#: includes/class-ajax.php:1051
+msgid "Pay item delete operation failed"
+msgstr ""
+
+#: includes/class-ajax.php:1088
+msgid "Pay item status changed successfully"
+msgstr ""
+
+#: includes/class-ajax.php:1090
+msgid "Pay item status change operation failed"
+msgstr ""
+
+#: includes/class-ajax.php:1134 includes/class-ajax.php:1171
+msgid "Pay item category cannot be empty!"
+msgstr ""
+
+#: includes/class-ajax.php:1136
+msgid ""
+"Given pay item category name already exist. Please provide another pay item "
+"category name."
+msgstr ""
+
+#: includes/class-ajax.php:1148
+msgid "Pay item category created successfully"
+msgstr ""
+
+#: includes/class-ajax.php:1175
+msgid "Given pay item category already exist! Please choose another name."
+msgstr ""
+
+#: includes/class-ajax.php:1182
+msgid "Pay item category edited successfully"
+msgstr ""
+
+#: includes/class-ajax.php:1202
+msgid "This Pay item category has one or more pay item, so it cannot be deleted!"
+msgstr ""
+
+#: includes/class-ajax.php:1212
+msgid "Pay item category deleted successfully"
+msgstr ""
+
+#: includes/class-ajax.php:1215
+msgid "Pay item category delete operation failed"
+msgstr ""
+
+#: includes/class-ajax.php:1767 includes/class-ajax.php:1772
+msgid "Employee information removed successfully"
+msgstr ""
+
+#: includes/class-ajax.php:1811
+msgid "Date period updated successfully"
+msgstr ""
+
+#: includes/class-ajax.php:1845
+msgid "Payment date updated successfully"
+msgstr ""
+
+#: includes/class-ajax.php:2148
+msgid "Payslip(s) sent successfully"
+msgstr ""
+
+#: includes/class-ajax.php:2172
+msgid "Please input amount."
+msgstr ""
+
+#: includes/class-ajax.php:2213
+msgid "Rules added successfully"
+msgstr ""
+
+#: includes/class-ajax.php:2271
+msgid "Pay Run Data Saved Successfully."
+msgstr ""
+
+#: includes/class-ajax.php:2330
+msgid "Basic info updated successfully"
+msgstr ""
+
+#: includes/class-ajax.php:2368
+msgid "Payment Method Inserted Successfully"
+msgstr ""
+
+#: includes/class-ajax.php:3043
+msgid "A new payrun has been created by copied this payrun"
+msgstr ""
+
+#: includes/class-ajax.php:3066
+msgid "Cannot delete, because it is an appoved transaction!"
+msgstr ""
+
+#: includes/class-ajax.php:3202
+msgid "Pay Item Added successfully"
+msgstr ""
+
+#: includes/class-ajax.php:3226 includes/class-ajax.php:3494
+msgid "Removed successfully"
+msgstr ""
+
+#: includes/class-ajax.php:3246
+msgid "Pay Allowance Added successfully"
+msgstr ""
+
+#: includes/class-ajax.php:3459
+msgid "Additional amount added successfully"
+msgstr ""
+
+#: includes/class-ajax.php:3544 includes/class-ajax.php:3549
+msgid "Start payrun"
+msgstr ""
+
+#: includes/class-ajax.php:3611 includes/class-ajax.php:3677
+msgid "You are ready to go to variable input step"
+msgstr ""
+
+#: includes/class-ajax.php:3744
+msgid "Salary Payment"
+msgstr ""
+
+#: includes/class-ajax.php:3839
+msgid "Pay run approved successfully"
+msgstr ""
+
+#: includes/class-ajax.php:3889
+msgid "Approved transaction undo successfully"
+msgstr ""
+
+#: includes/class-ajax.php:3902
+msgid "Error: Nonce verification failed"
+msgstr ""
+
+#: includes/class-ajax.php:4017
+msgid "Transaction copied successfully"
+msgstr ""
+
+#: includes/class-cli.php:83
+msgid "Tables deleted successfully!"
+msgstr ""
+
+#: includes/class-form-handler.php:640
+msgid "Cheating?"
+msgstr ""
+
+#: includes/class-payrun-list.php:40
+msgid "Filter by Status"
+msgstr ""
+
+#: includes/class-payrun-list.php:42
+msgid "- Select All -"
+msgstr ""
+
+#: includes/class-payrun-list.php:61
+msgid "No payrun found."
+msgstr ""
+
+#: includes/class-payrun-list.php:124
+msgid "<a class='fa button' href='%s'><span><i class='fa fa-pencil'></i></span></a>"
+msgstr ""
+
+#: includes/class-payrun-list.php:126
+msgid ""
+"&nbsp;<label class='fa button payrun-rp' "
+"v-on:click='removePayrun(\"%d\")'><span><i class='fa "
+"fa-trash'></i></span></label>"
+msgstr ""
+
+#: includes/class-payrun-list.php:129
+msgid ""
+"&nbsp;<label title='Undo Approval' class='fa button payrun-rp' "
+"v-on:click='undoPayrun(\"%d\")'><span><i class='fa "
+"fa-rotate-left'></i></span></label>"
+msgstr ""
+
+#: includes/class-payrun-list.php:132
+msgid ""
+"&nbsp;<label title='Copy Approval' class='fa button payrun-rp' "
+"v-on:click='copyPayrun(\"%d\")'><span><i class='fa "
+"fa-copy'></i></span></label>"
+msgstr ""
+
+#: includes/class-settings.php:27
+msgid "Accounting Settings"
+msgstr ""
+
+#: includes/class-settings.php:28
+msgid "Payment Settings"
+msgstr ""
+
+#: includes/class-settings.php:29
+msgid "Pay Item Settings"
+msgstr ""
+
+#: includes/class-settings.php:102
+msgid "Payment Method Selection"
+msgstr ""
+
+#: includes/class-settings.php:145 includes/class-settings.php:173
+msgid "Pay Type"
+msgstr ""
+
+#: includes/class-settings.php:158 includes/class-settings.php:175
+msgid "Amount Type"
+msgstr ""
+
+#: includes/class-settings.php:161
+msgid "Subtraction"
+msgstr ""
+
+#: includes/class-settings.php:166
+msgid "Add Pay Item"
+msgstr ""
+
+#: includes/class-updates.php:108
+msgid ""
+"<strong>WP ERP Payroll data update is required</strong> &#8211; We need to "
+"update your install to the latest version"
+msgstr ""
+
+#: includes/class-updates.php:109
+msgid "Run the updater"
+msgstr ""
+
+#: includes/class-updates.php:114
+msgid ""
+"It is strongly recommended that you backup your database before proceeding. "
+"Are you sure you wish to run the updater now?"
+msgstr ""
+
+#: includes/emails/class-email-payslip-bulk.php:16
+#: includes/emails/class-email-payslip-single.php:16
+msgid "New Payslip"
+msgstr ""
+
+#: includes/emails/class-email-payslip-bulk.php:17
+#: includes/emails/class-email-payslip-single.php:17
+msgid "New Payslip Notification."
+msgstr ""
+
+#: includes/emails/class-email-payslip-bulk.php:19
+#: includes/emails/class-email-payslip-single.php:19
+msgid "Payslip notification"
+msgstr ""
+
+#: includes/emails/class-email-payslip-bulk.php:20
+#: includes/emails/class-email-payslip-single.php:20
+msgid "Payslip Notification heading"
+msgstr ""
+
+#: includes/emails/class-email-payslip-custom.php:17
+msgid "Employee Payslip Notification."
+msgstr ""
+
+#: includes/emails/class-email-payslip-custom.php:19
+msgid "Employee notification"
+msgstr ""
+
+#: includes/emails/class-email-payslip-custom.php:20
+msgid "Employee Notification heading"
+msgstr ""
+
+#: includes/functions-payroll.php:6
+msgid "<i class=\"fa fa-file-text-o\"></i> Payroll History of Current Month"
+msgstr ""
+
+#: includes/functions-payroll.php:850
+msgid "Variable Input"
+msgstr ""
+
+#: includes/functions-payroll.php:851
+msgid "PaySlips"
+msgstr ""
+
+#: includes/functions-payroll.php:852
+msgid "Approval"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP ERP - Payroll"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wperp.com/downloads/payroll/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Manage your employee payroll."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "weDevs"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://wedevs.com"
+msgstr ""

@@ -1,0 +1,502 @@
+.erp-wrap {
+    background: #fff;
+    margin-top: 2rem;
+    border: 1px solid lightgrey;
+    padding: 2rem;
+    height: 60vh;
+    display: block;
+    overflow: scroll;
+    border-radius: 5px;
+}
+
+.select2-container--default .select2-selection--single {
+    border: none;
+    border-radius: 0;
+    color: black;
+    font-weight: 400;
+}
+
+.select2.select2-container.select2-container--default {
+    width: unset !important;
+}
+
+.select2-dropdown.select2-dropdown--below {
+    border-top: 0.5px solid lightgrey;
+}
+
+#erp-hr-orgc-canvas {
+    background: rgba(255,255,255,0.75) url("../../../../../../assets/images/org-map.jpg") no-repeat 0 0;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#erp-orgc-zoom {
+    display: grid;
+    position: absolute;
+    right: 17px;
+    top: 85px;
+    margin-top: 5px;
+    border: none;
+    color: gray;
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.erp-orgc-btn {
+    display: grid;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.erp-orgc-btn button {
+    padding: 5px;
+    border: 0.3px solid rgb(226, 226, 226);
+    background-color: #fff;
+    color: rgba(0,0,0,0.6);
+    text-decoration: none;
+    line-height: inherit;
+    cursor: pointer;
+}
+
+.erp-orgc-btn button:disabled:hover {
+    background-color: inherit;
+    cursor: not-allowed;
+}
+
+.erp-orgc-btn button:disabled:hover {
+    color: unset;
+}
+
+.erp-orgc-btn:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.erp-orgc-btn button:hover {
+    background-color: #f7f7f7;
+}
+
+.erp-orgc-btn button:last-child {
+    border-bottom-left-radius: 3.5px;
+    border-bottom-right-radius: 3.5px;
+}
+
+.erp-orgc-btn button:first-child {
+    border-top-left-radius: 3.5px;
+    border-top-right-radius: 3.5px;
+}
+
+.erp-orgc-btn button:not(:last-child) {
+    border-bottom: none;
+}
+
+.erp-orgc-btn button .dashicons {
+    font-weight: 100;
+    font-size: 18px;
+    color: darkgrey;
+}
+
+.erp-orgc-btn button:hover .dashicons {
+    font-weight: 100;
+    color: #1A9ED4;
+}
+
+#select2-erp-orgc-filter-container {
+    color: black !important;
+    font-weight: 500 !important;
+    text-align: center;
+}
+
+#erp-hr-org-chart {
+    text-align: center;
+    margin-top: 15px;
+    height: 100%;
+    width: 100%;
+}
+
+#erp-hr-org-chart.mobile-view {
+    text-align: left;
+}
+
+.chart-container {
+    position: relative;
+    display: inline-block;
+    top: 15px;
+    left: 0px;
+    width: -webkit-fill-available;
+    overflow: hidden;
+}
+
+.orgchart {
+    background-image: none !important;
+    padding: 0 !important;
+}
+
+.orgchart .node {
+    border: 1px solid #dbdbdb !important;
+    border-radius: 8px !important;
+    margin-right: 5px !important;
+    margin-left: 5px !important;
+    padding: 30px 15px 50px 15px !important;
+    background-color: #ffffff;
+    min-width: 150px;
+}
+
+.orgchart .node .edge {
+    display: none;
+}
+
+.orgchart .node.no-content {
+    display: none;
+}
+
+.orgchart .hierarchy.no-parent.root.no-child {
+    display: none;
+}
+
+.orgchart ul li .node:hover {
+    background-color: #f8f8ff !important;
+}
+
+.orgchart .node .edge {
+    color: #9afcfc !important;
+}
+
+.orgchart .node.focused {
+    background-color: rgb(64, 157, 194) !important;
+    color: white !important;
+}
+
+.orgchart .node.focused:hover {
+    background-color: rgb(64, 157, 194) !important;
+}
+
+.orgchart .node:hover {
+    background-color: #f2f2f2 !important;
+}
+
+.orgchart .node:not(:only-child)::after {
+    background-color: #3aa5f2;
+}
+
+.orgchart .node .edge {
+    color: rgba(207, 207, 207, 0.918) !important;
+}
+
+.orgchart .hierarchy::before {
+    background-color: unset;
+    border-top: 0.5px solid #3aa5f2;
+}
+
+.orgchart>ul>li>ul li>.node::before {
+    background-color: #3aa5f2;
+}
+
+.orgchart .node .title {
+    background-color: unset !important;
+    height: 60px !important;
+    width: unset !important;
+}
+
+.orgchart .node .title img {
+    border-radius: 50% !important;
+    height: 50px !important;
+    width: 50px !important;
+}
+
+.orgchart .node .content {
+    border: none !important;
+    border-radius: unset;
+    background-color: unset;
+}
+
+.orgchart .node.focused .content {
+    color: white !important;
+}
+
+.orgchart .node.focused .content .designation {
+    color: white !important;
+}
+
+.erp-multi-org-chart .orgchart .no-parent.root.multi-children .nodes.no-parent {
+    border: 0.5px solid rgba(161, 216, 255, 0.8) !important;
+    border-radius: 3.5px;
+    padding: 5px 0;
+    background-color: rgba(161, 216, 255, 0.2) !important;
+    flex-direction: column !important;
+    margin: 0 5px !important;
+}
+
+.erp-multi-org-chart .orgchart .no-parent.root .nodes.no-parent .hierarchy .nodes .hierarchy {
+    margin-top: 7px !important;
+}
+
+.erp-multi-org-chart .orgchart .hierarchy.no-parent.root .nodes.no-parent .hierarchy.no-parent::before,
+.erp-multi-org-chart .orgchart .hierarchy.no-parent.root .nodes.has-child .hierarchy.no-parent .node.no-parent::before,
+.erp-multi-org-chart .orgchart .hierarchy.no-parent.root .nodes.no-parent .hierarchy.no-parent .node.no-parent::before {
+    content: none !important;
+}
+
+.erp-multi-org-chart .orgchart .hierarchy.no-parent.root .nodes.no-parent .hierarchy.no-parent {
+    margin: 0 5px;
+}
+
+.erp-multi-org-chart .orgchart .hierarchy.no-parent.root .nodes.no-parent .hierarchy.no-parent .node.no-parent {
+    margin: 0 !important;
+}
+
+.erp-multi-org-chart .orgchart .node {
+    padding: 0 3px !important;
+    min-width: unset;
+}
+
+.erp-multi-org-chart .orgchart .nodes .hierarchy .nodes .hierarchy.no-parent.root {
+    border: 0.5px;
+    border-color: none;
+    border-radius: 8px;
+    padding: 12px 3px 0 3px !important;
+    margin: 0 30px 0 5px !important;
+}
+
+.erp-multi-org-chart .orgchart .nodes .hierarchy .nodes .hierarchy.no-parent.root:hover {
+    background-color: rgba(190, 214, 231, 0.568);
+    border-color: rgba(158, 199, 228, 0.76);
+    cursor: pointer;
+}
+
+.erp-multi-org-chart #rootNode::before {
+    content: none;
+}
+
+.erp-multi-org-chart .orgchart .content {
+    display: none !important;
+}
+
+.erp-multi-org-chart .orgchart .title {
+    height: 50px !important;
+    width: 50px !important;
+    margin: auto;
+}
+
+.erp-multi-org-chart .orgchart .node .title img {
+    height: 40px !important;
+    width: 40px !important;
+    margin-top: 2px;
+}
+
+#erp-hr-org-chart:not(.erp-multi-org-chart) .orgchart .node .title .erp-row-action-dropdown {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
+
+#erp-hr-org-chart:not(.erp-multi-org-chart) .orgchart .node .title .erp-row-action-dropdown .dashicons.dropdown-btn {
+    transform: rotate(90deg);
+    color: rgb(79, 160, 192) !important;
+    cursor: pointer;
+    background-color: inherit !important;
+    color: rgb(226, 226, 226) !important;
+    border: 0.5px !important;
+    border-color: inherit;
+    border-radius: 50%;
+    padding: 3px;
+    font-size: 16px !important;
+    line-height: 1.25 !important;
+}
+
+#erp-hr-org-chart:not(.erp-multi-org-chart) .orgchart .node .title .erp-row-action-dropdown .dashicons.dropdown-btn:hover {
+    color: rgb(79, 160, 192) !important;
+    border-color: rgb(101, 168, 194) !important;
+}
+
+#erp-hr-org-chart:not(.erp-multi-org-chart) .orgchart .node.focused .title .erp-row-action-dropdown .dashicons.dropdown-btn {
+    background-color: rgb(104, 167, 192) !important;
+    color: #ffffff !important;
+    border-color: rgb(104, 167, 192) !important;
+}
+
+#erp-hr-org-chart:not(.erp-multi-org-chart) .orgchart .node .title .erp-row-action-dropdown .popper-arrow {
+    left: 30px;
+    top: 4px;
+    border: solid black;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 3px;
+    position: absolute;
+    margin: 5px;
+    border-color: #fff;
+    display: none;
+}
+
+#erp-hr-org-chart:not(.erp-multi-org-chart) .orgchart .node .title .erp-row-action-dropdown .popper-arrow.arrow-left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+#erp-hr-org-chart:not(.erp-multi-org-chart) .orgchart .node .title .erp-row-action-dropdown .dropdown-content {
+    left: 37.5px;
+    top: 0;
+    border: 0.5px solid #dbdbdb !important;
+    border-radius: 6px !important;
+    border-left: none !important;
+    box-shadow: none !important;
+    background-color: #ffffff !important;
+    z-index: 600;
+}
+
+#erp-hr-org-chart:not(.erp-multi-org-chart) .orgchart .node .title .erp-row-action-dropdown .dropdown-content a {
+    color: rgb(63, 63, 63);
+    padding: 10px 50px 5px 12px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#erp-hr-org-chart:not(.erp-multi-org-chart) .orgchart .node .title .erp-row-action-dropdown .dropdown-content a:hover {
+    color: rgb(49, 49, 49);
+    background-color: #f8f8ff;
+}
+
+#erp-hr-org-chart:not(.erp-multi-org-chart) .orgchart .node .title .erp-row-action-dropdown .dropdown-content a .dashicons {
+    color: rgba(206, 23, 23, 0.87) !important;
+    font-size: 25px !important;
+    line-height: 0.68 !important;
+    margin-right: 11px !important;
+}
+
+#erp-hr-org-chart:not(.erp-multi-org-chart) .orgchart .node .title .erp-row-action-dropdown .dropdown-content a:hover .dashicons {
+    color: rgba(202, 55, 55, 0.932) !important;
+    font-size: 27px !important;
+    line-height: 0.6 !important;
+}
+
+.orgchart .node .content .name {
+    font-weight: 800;
+    font-size: 13px;
+}
+
+.orgchart .node .content .designation {
+    font-weight: 400;
+    color: #4f4f4f;
+}
+
+.orgchart .nodes.vertical>.hierarchy:first-child::before {
+    top: -6px;
+    height: 30px;
+    width: calc(50%);
+}
+
+.orgchart .nodes.vertical::before {
+    background-color: #3aa5f2;
+}
+
+.orgchart .nodes.vertical .hierarchy::after,
+.orgchart .nodes.vertical .hierarchy::before {
+    border-color: #3aa5f2;
+    left: -9px;
+}
+
+.orgchart .hierarchy.no-parent.root::before {
+    border-top: none !important;
+}
+
+.orgchart .hierarchy.no-parent.root .node.root::before {
+    content: none !important;
+}
+
+#erp-hr-org-chart.erp-multi-org-chart #rootNode {
+    display: none;
+}
+
+.orgchart .nodes.vertical>.hierarchy.no-parent:first-child::before {
+    display: none !important;
+}
+
+.orgchart.l2r .node, .orgchart.r2l .node {
+    width: 120px !important;
+    height: 110px !important;
+}
+
+.orgchart.l2r .node .title {
+    background-color: unset !important;
+    height: 65px !important;
+    width: 80px !important;
+}
+
+#erp-hr-org-chart:not(.erp-multi-org-chart) .orgchart.l2r .node .title {
+    transform: rotate(-90deg) translate(39px,17px) rotateY(180deg) !important;
+}
+
+#erp-hr-org-chart:not(.erp-multi-org-chart) .orgchart.l2r .node .content {
+    transform: rotate(-90deg) translate(43px,-13px) rotateY(180deg) !important;
+}
+
+#erp-hr-org-chart:not(.erp-multi-org-chart) .orgchart.l2r .node .content .name {
+    font-size: unset;
+}
+
+#erp-hr-org-chart:not(.erp-multi-org-chart) .orgchart.l2r .node .title .erp-row-action-dropdown {
+    top: -3px;
+    right: unset;
+}
+
+#erp-hr-org-chart:not(.erp-multi-org-chart) .orgchart.l2r .node .title .erp-row-action-dropdown .dashicons.dropdown-btn {
+    font-size: 12px !important;
+    line-height: 1.5 !important;
+    padding: 2px !important;
+}
+
+#erp-hr-org-chart:not(.erp-multi-org-chart) .orgchart.l2r .node.focused .title .erp-row-action-dropdown .dashicons.dropdown-btn {
+    background-color: unset !important;
+    border-color: unset !important;
+}
+
+#erp-hr-org-chart:not(.erp-multi-org-chart) .orgchart.l2r .node .title img {
+    height: 42px !important;
+    width: 42px !important;
+    margin-top: 6px !important;
+}
+
+#erp-hr-org-chart:not(.erp-multi-org-chart) .orgchart.l2r .node .title .erp-row-action-dropdown .dropdown-content a {
+    padding: 10px 20px 5px 12px !important;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+}
+
+#erp-hr-org-chart.erp-multi-org-chart .orgchart.l2r .node,
+#erp-hr-org-chart.erp-multi-org-chart .orgchart.r2l .node {
+    width: 60px !important;
+    height: 60px !important;
+}
+
+#erp-hr-org-chart.erp-multi-org-chart .orgchart.l2r .node .title {
+    transform: rotate(-90deg) translate(18px, 15px) rotateY(180deg);
+    transform-origin: bottom center;
+}
+
+.erp-multi-org-chart .orgchart.l2r .node .title img {
+    height: 40px !important;
+    width: 40px !important;
+    margin: 10px 5px 0 0 !important;
+}
+
+.erp-multi-org-chart .orgchart.l2r .title {
+    height: 60px !important;
+    width: 60px !important;
+    margin: -12px 8px !important;
+}
+
+#erp-hr-org-chart.erp-multi-org-chart .orgchart .node.no-content > .hierarchy:first-child::before {
+    border-top: none !important;
+}
+
+.orgchart .node.no-content > .nodes.vertical::before {
+    background-color: #3aa5f2;
+}
+
+.orgchart .nodes.vertical.no-parent::before {
+    content: unset !important;
+}

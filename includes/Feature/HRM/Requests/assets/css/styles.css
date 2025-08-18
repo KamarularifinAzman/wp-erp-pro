@@ -1,0 +1,287 @@
+.erp-request-form-wrap .row label {
+    width: 155px !important;
+}
+
+#erp-rw-other-reason.hide {
+    display: none;
+}
+
+#erp-hr-empl-remote-work-filter .erp-hr-rw-filters {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#erp-hr-empl-remote-work-filter .erp-hr-rw-filters div {
+    margin-right: 4px;
+}
+
+#erp-hr-empl-remote-work-filter .erp-hr-rw-filters input[type="submit"] {
+    height: 28px;
+    min-height: 28px;
+}
+
+#erp-hr-employee-resign {
+    height: 70%;
+    width: 36%;
+    left: 32%;
+    right: 32%;
+}
+
+#erp-employee-resign {
+    background-color: rgb(207, 84, 84);
+    border-color: rgb(207, 84, 84);
+    color: white;
+}
+
+#erp-employee-cancel-resign {
+    background-color: rgb(115, 46, 161);
+    border-color: rgb(119, 53, 163);
+    color: white;
+}
+
+#erp-employee-cancel-resign:hover {
+    background-color: rgb(131, 70, 172);
+}
+
+#erp-resign-details {
+    margin-top: 10px;
+}
+
+#erp-resign-date {
+    width: 229px;
+    min-width: 229px;
+}
+
+#erp-hr-employee-remote-work {
+    width: 38%;
+    left: 31%;
+    right: 31%;
+    height: 51%;
+}
+
+#erp-remote-work-date-from,
+#erp-remote-work-date-to {
+    width: 235px;
+    min-width: 235px;
+}
+
+#erp-hr-request-single {
+    height: -webkit-fill-available !important;
+    width: 34% !important;
+    left: 33% !important;
+    right: 33% !important;
+    border-radius: 5px !important;
+}
+
+#erp-hr-request-single .content-container {
+    top: 3rem !important;
+    bottom: 3rem !important;
+    padding: 0 4rem 0 4rem !important;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 784px) {
+    #erp-hr-request-single {
+        width: 40% !important;
+        left: 30% !important;
+        right: 30% !important;
+    }
+
+    #erp-hr-request-single .content-container {
+        top: 2.5rem !important;
+        bottom: 2.5rem !important;
+        padding: 0 3rem 0 3rem !important;
+    }
+}
+
+@media screen and (max-width: 783px) and (min-width: 620px) {
+    #erp-hr-request-single {
+        width: 56% !important;
+        left: 22% !important;
+        right: 22% !important;
+    }
+
+    #erp-hr-request-single .content-container {
+        top: 2rem !important;
+        bottom: 2rem !important;
+        padding: 0 2rem 0 2rem !important;
+    }
+}
+
+@media screen and (max-width: 619px) and (min-width: 415px) {
+    #erp-hr-request-single {
+        width: 74% !important;
+        left: 13% !important;
+        right: 13% !important;
+    }
+
+    #erp-hr-request-single .content-container {
+        top: 1.5rem !important;
+        bottom: 1.5rem !important;
+        padding: 0 1.5rem 0 1.5rem !important;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    #erp-hr-request-single {
+        width: 84% !important;
+        left: 8% !important;
+        right: 8% !important;
+    }
+
+    #erp-hr-request-single .content-container {
+        padding: 0 1rem 0 1rem !important;
+    }
+}
+
+#erp-hr-request-single.resign {
+    max-height: 66% !important;
+    top: 17% !important;
+}
+
+#erp-hr-request-single.resign.pending {
+    max-height: 72% !important;
+    top: 14% !important;
+}
+
+#erp-hr-request-single.remote-work {
+    max-height: 80% !important;
+    top: 10% !important;
+}
+
+#erp-hr-request-single.remote-work.pending {
+    max-height: 86% !important;
+    top: 7% !important;
+}
+
+#erp-hr-request-single #close-modal {
+    display: block !important;
+    position: absolute;
+    cursor : pointer;
+    color : rgb(255, 254, 254);
+    background-color : rgb(19, 19, 19);
+    text-align : center;
+    height : 20px;
+    width : 20px;
+    padding : 0;
+    border : none;
+    right : -20px;
+}
+
+#erp-hr-request-single .erp-request-header {
+    position: relative;
+    top: 0;
+}
+
+#erp-hr-request-single .erp-request-footer {
+    display: flex;
+    position: relative;
+    bottom: 0;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+
+#erp-hr-request-single .header {
+    font-size: 15px;
+    opacity: 0.5;
+    line-height: 1.077;
+    margin-bottom: 10px;
+}
+
+#erp-hr-request-single .column {
+    padding: 16px 7px 0 7px !important;
+}
+
+#erp-hr-request-single .info {
+    font-size: 14px;
+    font-weight: 500;
+    color: #1A2537;
+    line-height: 1.43;
+    opacity: 75%;
+}
+
+#erp-hr-request-single .details {
+    padding: 18px;
+    border-radius: 5px;
+}
+
+#erp-hr-request-single .details.date {
+    background-color: rgba(181,0,105,.06);
+}
+
+#erp-hr-request-single .details.date-alt {
+    background-color: rgba(15,83,255,.06);
+}
+
+#erp-hr-request-single .details.duration{
+    background-color: rgba(4,181,0,.06);
+}
+
+#erp-hr-request-single .details.reason{
+    background-color: rgba(63,80,162,.06);
+}
+
+#erp-hr-request-single .details.date .dashicons {
+    color: #B50069;
+}
+
+#erp-hr-request-single .details.date-alt .dashicons {
+    color: #0F53FF;
+}
+
+#erp-hr-request-single .details.duration .dashicons {
+    color: #00B5AA;
+}
+
+#erp-hr-request-single .details.reason .dashicons {
+    color: #5E55A7;
+}
+
+#erp-hr-request-single .status {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#erp-hr-request-single .status.pending {
+    color: #FE8425;
+}
+
+#erp-hr-request-single .status.rejected {
+    color: #d6362e;
+}
+
+#erp-hr-request-single .status.approved {
+    color: #60b61e;
+}
+
+#erp-hr-request-single .line-icon {
+    font-size: 20px;
+    line-height: .95;
+    margin-right: 12px;
+}
+
+#erp-hr-request-single button {
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    padding: 5px 18px !important;
+    margin-top: 7px;
+}
+
+button#erp-req-approve {
+    background-color: #01D080;
+    color: white;
+}
+
+button#erp-req-approve:hover {
+    background-color: #04c47a;
+}
+
+button#erp-req-reject {
+    background-color: #eeeded;
+    color: rgb(36, 36, 36);
+    opacity: 75%;
+}
+
+button#erp-req-reject:hover {
+    opacity: 100%;
+}

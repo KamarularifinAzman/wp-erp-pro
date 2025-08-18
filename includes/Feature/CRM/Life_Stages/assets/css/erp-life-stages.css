@@ -1,0 +1,110 @@
+.erp-grid-container.erp-life-stage-settings-page [class*='col-'] {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#erp-life-stage-settings-page > td {
+    padding: 0;
+}
+
+.erp-life-stages {
+    position: relative;
+}
+
+.erp-life-stages .erp-life-stage-list {
+    min-width: 250px;
+}
+
+@media (max-width: 960px) and (min-width: 501px) {
+    .erp-life-stages .erp-life-stage-list { width: 90%; }
+}
+
+@media (max-width: 500px) and (min-width: 351px) {
+    .erp-life-stages .erp-life-stage-list { width: 80%; }
+}
+
+@media (max-width: 350px) and (min-width: 251px) {
+    .erp-life-stages .erp-life-stage-list { width: 70%; }
+}
+
+@media (max-width: 250px) {
+    .erp-life-stages .erp-life-stage-list { width: 60%; }
+}
+
+.erp-life-stage-list li {
+    padding: 7px;
+    margin: 0;
+    border: 1px solid #f1f1f1;
+    border-bottom: 0;
+    line-height: 1.8;
+    cursor: move;
+    background-color: #fff;
+}
+
+.erp-life-stage-list li:hover {
+    background-color: #fafafa;
+}
+
+.erp-life-stage-list .stage-title {
+    float: left;
+    width: 200px;
+}
+
+.erp-life-stage-list .stage-title a {
+    text-decoration: none;
+}
+
+.erp-life-stage-list .stage-buttons {
+    float: right;
+}
+
+.erp-life-stage-list .stage-buttons .button.button-small .dashicons {
+    font-size: 14px;
+    padding-top: 2px;
+}
+
+.erp-warning-container i {
+    color: #ECD300;
+    font-weight: bold;
+    font-size: 12rem;
+}
+
+.erp-modal,
+.erp-crm-add-life-stage,
+.erp-modal-backdrop {
+    display: none;
+}
+
+.erp-modal {
+    z-index: 600;
+}
+
+.erp-modal-backdrop {
+    z-index: -1;
+    opacity: 0.2;
+}
+
+#add-life-stage-button {
+    display: none;
+}
+
+#list-life-stage-loading {
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+}
+
+.button:disabled {
+    cursor: not-allowed;
+}
+
+.edit-life-stage-button, .delete-life-stage-button {
+    text-decoration: none !important;
+}
+
+.empty-life-stage {
+    background-color: #fdf5f2;
+    padding: 10px;
+}

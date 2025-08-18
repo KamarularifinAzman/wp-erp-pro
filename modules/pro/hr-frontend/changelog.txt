@@ -1,0 +1,40 @@
+v2.1.2 - 01 June, 2020
+--------------------
+[new] Added translation for some js string
+[fix] Added ERP 1.6.0 support
+
+v2.1.1 - 14 Feb, 2020
+--------------------
+[new] Added redirect to frontend settings & functionality for employees
+[new] Added document upload field at leave form
+[fix] Fixes some minor bugs
+
+v2.1.0 - 07 Jan, 2020
+--------------------
+[new] Integrated with Document Manager
+[new] Integrated with ERP Attendance following backward compatibility
+[fix] Fixes some minor bugs
+
+v2.0.4 - 25 Nov, 2019
+--------------------
+[fix] Dashboard overview translation
+
+v2.0.3 - 03 Jan, 2019
+--------------------
+[new] Translate string
+[fix] Send email for leave request
+
+v2.0.1 - 30 Jul, 2018
+--------------------
+[new] Unable to update Profile Picture. Closes #17
+[new] Add logo upload option
+[fix] Datepicker year range problem
+[fix] Add custom title
+[fix] Show full calendar navigate icon
+[fix] Hide sensitive data of other employees
+[fix] Unable to add Job Information. Closes #13
+[fix] Remove static letter icon
+
+v2.0.0 - 27 March, 2018
+--------------------
+-- Initial release

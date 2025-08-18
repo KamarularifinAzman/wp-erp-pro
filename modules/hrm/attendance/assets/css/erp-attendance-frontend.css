@@ -1,0 +1,21 @@
+#emp-single-att-stacked-chart .legend table {
+    max-width: 150px;
+    border: 1px solid #ddd;
+}
+
+#emp-single-att-stacked-chart .legend table td {
+    padding: 0;
+    border: 0;
+}
+
+#emp-single-att-stacked-chart .legend table .legendColorBox {
+    width: 18px;
+}
+
+#emp-single-att-stacked-chart .legend table .legendColorBox > div {
+    margin-left: 4px;
+}
+
+#emp-single-att-stacked-chart .legend table .legendLabel {
+    padding-left: 8px;
+}

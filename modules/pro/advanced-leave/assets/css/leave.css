@@ -1,0 +1,203 @@
+.policy-form-list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.policy-form-list-item div {
+    margin-left: 20px;
+}
+
+.policy-form-list-item select {
+    width: 150px;
+}
+
+.policy-form-list-item input[type=number] {
+    width: 100px;
+}
+
+.policy-form-list-item label[for=apply_by] {
+    width: 80px;
+    text-align: right;
+    margin-right: 3px;
+}
+
+.policy-form-list-item label[for=carryover-apply-by] {
+    padding-left: 50px;
+    width: 60px;
+}
+
+.policy-form-list-item label[for=carryover-uses-limit] {
+    width: 100px;
+    padding-right: 10px;
+}
+
+.policy-form-list-item label[for=encashment-based-on] {
+    width: 100px;
+    padding-right: 10px;
+}
+
+.policy-form-list-item.forward-default-box .checkbox input:last-child {
+    margin-left: 10px;
+}
+
+.leave-policy-form .margin-bottom-5 {
+    margin-bottom: 5px;
+}
+
+p.margin-left-0 {
+    margin-left: 0px !important;
+}
+
+.policy-leave-segregation {
+    display: flex;
+    align-items: center;
+}
+
+.policy-leave-segregation .segregation-label {
+    width: 190px;
+}
+
+.segre-table-part1 {
+    margin-bottom: 20px;
+}
+
+.segre-date input {
+    width: 90px;
+}
+
+.calculate-form select {
+    width: 200px;
+}
+
+.leave_unpaids td.column-amount input {
+    width: 100px;
+}
+
+.button#generate_forward_leaves {
+    margin: 0 10px;
+}
+
+.leave_forwards th,
+.leave_forwards td {
+    text-align: center;
+}
+
+.leave_forwards #employee_name,
+.leave_forwards #policy_name,
+.leave_forwards .employee_name,
+.leave_forwards .policy_name {
+    text-align: left;
+}
+
+.request-halfday-form,
+.halfday-leave-period {
+    display: none;
+}
+
+.request-halfday-form .row:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.request-halfday-form label[for=halfday] {
+    margin-right: 5px;
+}
+
+.request-halfday-form #leave-period {
+    width: 162px;
+}
+
+.erp-hr-leave-request-new .f_year {
+    width: 162px;
+}
+
+.erp-hr-leave-forward-inner .tablenav.top {
+    height: auto;
+}
+
+.forward-help {
+    padding-top: 20px;
+    line-height: 20px;
+}
+
+.leave-policy-feature-warning,
+.leave-policy-feature-warning a {
+    color: #3f51b5;
+    font-size: 16px;
+}
+
+.leave-policy-form p.description {
+    margin-left: 190px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #757575;
+    width: 100%;
+    width: -moz-available;
+    /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;
+    /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+}
+
+
+/*
+Multilevel Leave Request CSS
+ */
+.leave-requests tbody .column-name span {
+    /*color: #0073aa; */
+    margin-right: 5px;
+    cursor: pointer;
+    display: inline-block;
+    transition: transform .5s;
+}
+
+.leave-requests tbody .column-name span.rotate {
+    transform: rotate(180deg);
+}
+
+.erp-pro-leave-req-expand-table thead th:first-child {
+    width: auto;
+}
+
+.erp-pro-leave-req-expand-table th {
+    font-weight: 700;
+}
+
+.erp-pro-leave-req-expand-table tr td:last-child {
+    text-align: left;
+}
+
+.erp-pro-leave-req-expand-table .erp-pro-spinner-center {
+    display: flex;
+    justify-content: center;
+}
+
+table.erp-pro-leave-req-expand-table td.status span {
+    padding: 2px 5px;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+table.erp-pro-leave-req-expand-table td .status-1 {
+    background: #7ad03a;
+    color: #fff;
+}
+
+table.erp-pro-leave-req-expand-table td .status-2 {
+    background: #ffba00;
+    color: #fff;
+}
+
+table.erp-pro-leave-req-expand-table td .status-3 {
+    background: #dd3d36;
+    color: #fff;
+}
+
+table.erp-pro-leave-req-expand-table td .status-4 {
+    background: #3E87D0;
+    color: #fff;
+}

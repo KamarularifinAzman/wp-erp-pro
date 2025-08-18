@@ -1,0 +1,113 @@
+.wp-erp-training-meta-data {
+    padding: 12px;
+}
+.wp-erp-training-meta-data::after, .wp-erp-training-meta-data::before {
+    content: "";
+    display: table;
+}
+.wp-erp-training-meta-data::after {
+    clear: both;
+}
+.wp-erp-training-meta-data .form-field {
+    line-height: 2em;
+    margin: 0 0 12px;
+    padding: 0 12px 0 0;
+    width: 50%;
+}
+.wp-erp-training-meta-data .form-field:nth-child(2n) {
+    clear: right;
+    float: right;
+    padding: 0 0 0 12px;
+}
+.wp-erp-training-meta-data .form-field:nth-last-child(-n+2) {
+    border-bottom: 0 none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.wp-erp-training-meta-data .form-field label {
+    display: block;
+    font-weight: 700;
+    margin: 0;
+    vertical-align: middle;
+}
+.wp-erp-training-meta-data .form-field .tips {
+    color: #999;
+    cursor: help;
+    float: right;
+    font-weight: 400;
+}
+.wp-erp-training-meta-data .form-field input[type="text"] {
+    box-sizing: border-box;
+    margin: 1px 0;
+    vertical-align: middle;
+    width: 100%;
+}
+.wp-erp-training-meta-data .form-field select {
+    box-sizing: border-box;
+    margin: 1px 0;
+    vertical-align: middle;
+    width: 100%;
+}
+.wp-erp-training-meta-data .form-field textarea {
+    box-sizing: border-box;
+    margin: 1px 0;
+    vertical-align: middle;
+    width: 100%;
+}
+.wp-erp-training-meta-data .form-field input.checkbox, .wp-erp-training-meta-data .form-field input.radio {
+    display: inline-block;
+    margin: 4px 2px;
+    width: auto;
+}
+
+/*.wp-erp-training-meta-data .form-field input[type="checkbox"] {
+    width: 10px;
+}*/
+.wp-erp-training-meta-data .form-field .description {
+    color: #999;
+    display: block;
+}
+.wp-erp-training-meta-data .form-field.form-field-checkbox .description {
+    display: inline;
+}
+.wp-erp-training-meta-data .form-field .file_url input {
+    width: 75%;
+}
+.wp-erp-training-meta-data .form-field .button {
+    margin-left: 4px;
+}
+.employee-image {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.1);
+    height: 32px;
+    width: 32px;
+}
+.erp-add-new-employee-training-icon {
+    line-height: 30px;
+    font-size: 13px;
+}
+#erp-add-new-employee-training {
+    float: right;
+    margin-top: -38px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+.alternate, .striped>tbody>:nth-child(odd), ul.striped>:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+#assign-edit-training {
+    min-height: 545px;
+    top: 7%;
+}
+.training_participant_popup span.activate {
+    display:none;
+}
+
+/*#selected_employee {
+    width: 500px;
+}*/
+
+li#menu-posts-erp_hr_training {
+    display: none !important;
+}

@@ -1,0 +1,32 @@
+.link-to-original {
+    display: block;
+    margin: 0 0 15px;
+    padding: 3px 5px 5px;
+    border: 1px solid #ddd;
+    color: #72777c;
+    font-size: 12px;
+    font-style: italic;
+}
+.erp-zendesk-activity .solved {
+  background: #828282;
+}
+.erp-zendesk-activity .open {
+  background: green;
+}
+.erp-zendesk-activity .pending {
+  background: #59BBE0;
+}
+.erp-zendesk-activity .ticket-status {
+  color: #fff;
+  margin-left: 10px;
+  padding: 0px 10px;
+  border-radius: 3px;
+  line-height: 1.1em;
+}
+.erp-zendesk-activity .loading {
+  background-image: url("../images/spinner-2x.gif");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: 48% 48%;
+  padding:20px;
+}

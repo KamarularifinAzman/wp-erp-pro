@@ -1,0 +1,222 @@
+.erp-crm-task-single {
+    z-index: 600;
+    width  : 40%;
+    left   : 30%;
+    right  : 30%;
+    height : 74%;
+    top    : 13%;
+    bottom : 13%;
+}
+
+.erp-crm-task-single
+.content-container {
+    top   : 5px;
+    bottom: 5px;
+    margin: 0 15px 0 15px;
+}
+
+.erp-modal-backdrop {
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.erp-crm-task-single
+.row {
+    padding-top: 8px;
+}
+
+@media (max-width: 782px) {
+    #crm-task-tab {
+        justify-content: flex-start !important;
+   }
+}
+
+#erp-task-table-wrap
+.erp-loader {
+    position: absolute;
+    left    : 50%;
+    right   : 50%;
+    top     : 54%;
+    bottom  : 46%;
+}
+
+#erp-task-table-wrap
+.widefat
+td {
+    vertical-align: middle;
+}
+
+.cen-align,
+#th-contact,
+#th-asgnto,
+#th-asgnby,
+#th-status {
+    vertical-align: middle;
+}
+
+.cen-align,
+#th-status {
+    text-align: center;
+}
+
+.header, .header-val {
+    font-size: 15px;
+    padding  : 7px 5px 0 5px;
+}
+
+.header {
+    font-weight: 600;
+    display    : block;
+    background : rgba(241, 241, 241, 0.856);
+    opacity    : 0.9;
+    padding    : 5px;
+}
+
+.header-lite {
+    font-size : 15px;
+    text-align: right;
+    opacity   : 0.5;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.stts {
+    color        : white;
+    border-radius: 2px;
+}
+
+.stts-pend {
+    background-color: #ffd000;
+    padding   : 3px 4px 3px 4px;
+}
+
+.stts-due {
+    background-color: #df4e46;
+    padding   : 3px 15px 3px 15px;
+}
+
+.stts-done {
+    background-color: #6ecc26;
+    padding   : 3px 11.5px 3px 11.5px;
+}
+
+#close-task-modal {
+    cursor          : pointer;
+    color           : rgb(255, 254, 254);
+    background-color: rgb(19, 19, 19);
+    text-align      : center;
+    height          : 20px;
+    width           : 20px;
+    padding         : 0;
+    border          : none;
+    right           : -20px;
+}
+
+.crm-tasks-tab {
+    cursor: pointer;
+}
+
+.task
+a {
+    font-weight: 500;
+}
+
+.erp-crm-task
+.actions
+i {
+    position: absolute;
+}
+
+.erp-crm-task
+.actions
+.fa {
+    padding: 7px 0 0 7px;
+    color  : rgb(163, 163, 163);
+}
+
+.erp-crm-task
+input::placeholder {
+    text-align : left;
+    color      : rgb(163, 163, 163);
+    font-size  : 13px;
+    padding-top: 5px;
+}
+
+#status-btn {
+    font-size       : 12px;
+    color           : rgb(104, 104, 104);
+    background-color: rgb(250, 250, 250);
+    border          : 0.5px solid  rgb(212, 212, 212);
+    opacity         : 60%;
+}
+
+#status-btn:hover {
+    color  : rgb(44, 44, 44);
+    opacity: 75%;
+}
+
+#status-btn:disabled {
+    cursor: not-allowed;
+}
+
+#status-btn .dashicons {
+    padding-top: 3px;
+}
+
+#action-btn {
+    display: none;
+    font-size: 10px;
+}
+
+#filter-date,
+#search-task {
+    line-height : 28px;
+    height      : 28px;
+    min-height  : 28px;
+    border-color: rgba(184, 182, 182, 0.918);
+    color       : rgb(112, 112, 112);
+    padding     : 0 8px 2px 22px;
+    font-size   : 13px;
+}
+
+#search-task  {
+    width: 150px;
+}
+
+#filter-date {
+    cursor: pointer;
+    width : 200px;
+}
+
+#filter-date:focus,
+#filter-date:active,
+#search-task:focus,
+#search-task:active {
+    outline   : none;
+    border    : none;
+    background: none;
+}
+
+#filter-contact,
+#filter-user {
+    width: 190px;
+}
+
+#filter-user {
+    display: none;
+}
+
+#filter-status {
+    width: 120px;
+}
+
+#task-title {
+    font-weight: 600;
+    font-size  : 23px;
+}
+
+#task-des {
+    font-size: 15px;
+}

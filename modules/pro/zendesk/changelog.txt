@@ -1,0 +1,17 @@
+= v1.1.2 (26 February, 2019) =
+- [fix] License doesn't save
+
+= v1.1.1 (25 February, 2019) =
+- [fix] Import contact after deleting existing contact
+- [fix] Fix authentication
+- [fix] Change ticket link
+- [fix] Set default life stage
+- [fix] Add contact details properly
+
+= v1.1.0 (25 October, 2018) =
+--------------------------
+ - Compatible with ERP v1.4.0
+
+ = v1.0.0 (15 May, 2018) =
+ --------------------------
+  - Initial release

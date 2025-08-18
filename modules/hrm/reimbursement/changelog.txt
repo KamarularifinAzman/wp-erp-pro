@@ -1,0 +1,29 @@
+```
+= v1.2.2 (05 February, 2020) =
+--------------------------
+ - Update employee request feature
+
+= v1.2.1 (11 September, 2019) =
+--------------------------
+ - Add data into people transaction details
+
+= v1.2.0 ( 02 September, 2019 ) =
+--------------------------
+- [new] Compatible with new accounting module
+
+= v1.1.1 ( 03 January, 2019 ) =
+----------------------------
+- [fix] Fix duplicate form invoice
+- [fix] Fix new invoice for employee
+- [fix] Change status of new invoice
+- [fix] Fix warning for display name
+
+= v1.1.0 ( 25 October, 2018 ) =
+--------------------------
+- [new] Update Inventory menu
+- [improved] Make compatible with old erp versions
+
+= v1.0.0 (28 November, 2016)
+--------------------
+
+- Initial Release

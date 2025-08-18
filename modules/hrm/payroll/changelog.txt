@@ -1,0 +1,43 @@
+= v1.4.0 ( 27 March, 2020 ) =
+--------------------------------
+- [new] Added copying e transaction feature
+- [new] Added details report & bank report to CSV functionality
+- [fix] Fixed some minor bugs & issues
+
+= v1.3.0 ( 26 February, 2020 ) =
+--------------------------------
+- [new] Employee dashboard widget for latest payslip
+- [new] Payslip tab at employee profile page
+- [new] Payslip pop up for employee profile page & dashboard widget
+- [new] Search payslip by month & year by payment date
+- [new] Sending payslip to employee after approving
+- [new] Generate configurable email & template for payslip with on/off toggle at email setting page
+
+= v1.2.2 ( 24 January, 2020 ) =
+--------------------------
+- [tweak] Update payslip UI
+- [tweak] Update payslip print
+
+= v1.2.0 ( 02 September, 2019 ) =
+--------------------------
+- [new] Compatible with new accounting module
+
+= v1.1.0 (25 October, 2018) =
+--------------------------
+- [new] Made compatible with ERP v1.4.0
+- [fix] Fixed several scripts and styles
+- [tweak] Various other code optimizations
+
+= v1.0.2 (28 February, 2017) =
+--------------------------
+- [fix] Enqueue plugin script in proper way
+- [fix] Compatibility issue with ERP Frontend
+- [fix] Fix Variable pay delete issue and decimal point issue. Issue #2
+
+= v1.0.1 (31 January, 2017) =
+--------------------------
+- Remove function call passed as parameter of `empty`
+
+= v1.0.0 (26 January, 2017) =
+--------------------------
+- Initial release

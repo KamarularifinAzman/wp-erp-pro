@@ -1,0 +1,15 @@
+= v1.1.0 (26 October, 2018) =
+--------------------------
+ - [tweak] Mailchimp integration menu moved under new ERP settings menu
+
+= v1.0.2 (29 October, 2016) =
+--------------------------
+ - Compatible with ERP v1.2.7
+
+= v1.0.1 (26 July, 2016) =
+--------------------------
+ - Compatible with ERP v1.1.1
+
+= v1.0 (26 April, 2016) =
+--------------------------
+ - Initial release

@@ -1,0 +1,17 @@
+= v1.1.1 ( 25 March, 2019 ) =
+--------------------------
+- [Fix] Change conversation status
+- [Fix] Can't sync contact list
+- [New] Sync mail box list
+- [New] Send message to customer from contact profile
+- [Fix] Can't sync customer conversation
+- [Fix] Set customer ticket link
+- [Fix] Change script loading hook
+
+= v1.1.0 ( 25 October, 2018 ) =
+--------------------------
+- Made compatible with ERP v1.4.0
+
+= v1.0.0 ( 15 May 2018 ) =
+--------------------------
+- Initial release

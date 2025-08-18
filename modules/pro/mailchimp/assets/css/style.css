@@ -1,0 +1,109 @@
+#erp_mailchimp_sync_form .sync-loader {
+    background: url('../images/spinner-2x.gif') no-repeat;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-size: cover;
+}
+#erp_mailchimp_sync_form #response_div {
+    width: 500px;
+}
+#erp_mailchimp_sync_form #response_div span {
+    font-size: 14px;
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    display: block;
+}
+#erp_mailchimp_sync_form .sync_type-selector input{
+    margin:0;padding:0;
+    -webkit-appearance:none;
+       -moz-appearance:none;
+            appearance:none;
+}
+#erp_mailchimp_sync_form .sync_type-selector input{
+    display: none;
+}
+#erp_mailchimp_sync_form .contacts_to_mailchimp{background-image:url('../images/wp-mc.png');}
+#erp_mailchimp_sync_form .mailchimp_to_contacts{background-image:url('../images/mc-wp.png');}
+
+#erp_mailchimp_sync_form .sync_type-selector input:active +.sync_type{opacity: .9;}
+#erp_mailchimp_sync_form .sync_type-selector input:checked +.sync_type{
+    -webkit-filter: none;
+       -moz-filter: none;
+            filter: none;
+    border: 1px solid #0085ba;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#erp_mailchimp_sync_form .sync_type {
+    border-radius: 3px;
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+    width:100px;height:34px;
+    -webkit-transition: all 100ms ease-in;
+       -moz-transition: all 100ms ease-in;
+            transition: all 100ms ease-in;
+    -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+       -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+            filter: brightness(1.8) grayscale(1) opacity(.7);
+}
+#erp_mailchimp_sync_form .sync_type:hover {
+    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+       -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+            filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
+#erp_mailchimp_sync_form .dashicons {
+    text-decoration: none;
+    line-height: 1.5em;
+}
+
+#erp_mailchimp_sync_form > div {
+    text-align: center;
+}
+
+#erp-mailchimp-sync-settings #erp-to-mailchimp {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+#erp-mailchimp-sync-settings #erp-to-mailchimp tr th, #erp-mailchimp-sync-settings #erp-to-mailchimp tr td {
+    width: 40%;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+#erp-mailchimp-sync-settings #erp-to-mailchimp tr th:first-child, #erp-mailchimp-sync-settings #erp-to-mailchimp tr td:first-child {
+    width: 20%;
+}
+
+#erp-mailchimp-sync-settings #mailchimp-to-erp {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#erp-mailchimp-sync-settings #mailchimp-to-erp tr th, #erp-mailchimp-sync-settings #mailchimp-to-erp tr td {
+    width: 25%;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#erp-mailchimp-sync-settings #mailchimp-to-erp tr th:nth-child(2), #erp-mailchimp-sync-settings #mailchimp-to-erp tr td:nth-child(2) {
+    width: 13%;
+}
+
+#erp-mailchimp-sync-settings #mailchimp-to-erp tr th:first-child, #erp-mailchimp-sync-settings #mailchimp-to-erp tr td:first-child {
+    width: 12%;
+}

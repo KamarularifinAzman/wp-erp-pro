@@ -1,0 +1,14 @@
+/* hide unwanted submenu */
+#adminmenu .toplevel_page_erp-hr-recruitment .wp-submenu li:nth-child(3),
+#adminmenu .toplevel_page_erp-hr-recruitment .wp-submenu li:nth-child(7),
+#adminmenu .toplevel_page_erp-hr-recruitment .wp-submenu li:nth-child(8),
+#adminmenu .toplevel_page_erp-hr-recruitment .wp-submenu li:nth-child(9),
+#adminmenu .toplevel_page_erp-hr-recruitment .wp-submenu li:nth-child(11),
+#adminmenu .toplevel_page_erp-hr-recruitment .wp-submenu li:nth-child(12){
+    display: none;
+}
+
+#recruitment_api_url {
+    pointer-events: none;
+    width: 90%;
+}

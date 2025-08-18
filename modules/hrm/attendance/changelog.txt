@@ -1,0 +1,92 @@
+= v2.0.2 =
+--------------------------
+- [fix] Fixed employee log update issue when hr manager update manually from the dashboard
+- [fix] Fixed wrong status of early checkout with overtime at log data
+- [fix] Fixed wrong status of Late checkin with overtime at log data
+- [fix] Fixed wrong status of missing checkout
+- [fix] Update the version number to the database after each update
+- [fix] Fixed some minor bugs
+
+= v2.0.1 (01 June, 2020 ) =
+--------------------------
+- [new] Added date based attendance report under HR --> Reports --> Attendance (Date Based)
+- [new] Added employee based attendance report under HR --> Reports --> Attendance (Employee Based)
+- [tweak] Updated some string on widgets, chart, summary & attendance page
+- [tweak] Updated webpack for production
+- [fix] fixed timezone problem
+- [new] Added print summery function to button
+- [tweak] Added support for ERP version 1.6.0 due to leave related code changes
+
+= v2.0.0 (09 Jan, 2020 ) =
+--------------------------
+- [new] Multicheck system
+- [new] Improved shift system
+- [fix] Minor report issues
+- [tweak] Improved user interface and user experience
+
+= v1.2.0 (25 Oct, 2018 ) =
+- [new] Add date based employee data export
+- [new] Attendance menu moved under new ERP menu
+- [fix] Doesn't display "Check Out" warning if "check out" is pressed from Self attendance widget
+- [fix] Wrong absent count on the date based report
+- [fix] Inactive employees are listed in the reports and everywhere else in attendance
+- [fix] Timepicker loding on every page
+- [tweak] Employee based report improvement and export
+
+= v1.1.4 ( 1st Feb, 2018 ) =
+- [fix]   Report not showing for current month day 1.
+- [fix]   Plot chart was not showing.
+
+= v1.1.3 ( 31 Jan, 2018 ) =
+--------------------------
+- [new]   CSV Export.
+- [new]   Show checkin and working time after checkin.
+- [new]   Fast checkin checkout
+- [new]   Alert when working hour less than specified time.
+- [tweak] Improve attendance report.
+- [tweak] Improve self-attendance widget design.
+- [fix]   Shift should have an unique slug or identifier.
+
+= v1.1.2 ( 23 Aug, 2017 ) =
+--------------------------
+- [tweak] Show all employee on edit page
+- [tweak] Stringify shift management object
+- [tweak] Refactor new attendance form functions
+- [tweak] Enable edit attendance for those who did not self check in
+- [fix] Include employees who did not self check in attendance list table
+- [tweak] Show absentees in a single day attendance record
+- [fix] Fix import attendance
+- [fix] Support CSV upload from Windows
+
+= v1.1.1 ( 13 Apr, 2017 ) =
+--------------------------
+- [New] Check-in/Checkout IP Restriction feature added.
+- [Fix] Calculate Presence with respect to active employee count
+- [Fix] Add checkin grace time offset
+- [Tweak] Support Add/Edit attendance for large number of employees
+- [Tweak] Enqueue scripts in employee single page
+- [Tweak] Load scripts in specific pages
+- [Tweak] Show attendance tab only to valid employee or HR manager
+- [Tweak] Validate self checkout if it already exists
+
+= v1.1.0 ( 12 February, 2017 ) =
+--------------------------
+- [New] Multiple shift management system.
+- [New] CSV importer
+- [Fix] HR Reporting
+- [Fix] Make dashboard widgets HR Frontend compatible
+- [Tweak] Employee will absent if no checkout data
+
+v1.0.1 - 22 November, 2016
+--------------------------
+
+- [Tweak] Improved CSV import script
+- [Tweak] Added default value if no settings saved
+- [Tweak] Change chosen to select2
+- [Fix] Shift table Issue
+- [New] Added bulk delete option to Daily Attendace Table
+
+v1.0 - 26 April, 2016
+--------------------
+
+- Initial Release

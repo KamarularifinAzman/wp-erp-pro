@@ -1,0 +1,28 @@
+= v1.2.2 ( 01 June 2020 ) =
+--------------------------
+- [tweak] Added support for ERP version 1.6.0 due to leave related code changes
+
+= v1.2.1 ( 07 April 2020 ) =
+--------------------------
+- [fix] Task assign issue from ERP WorkFlow
+- [fix] Sub menu page generated warning issue
+
+= v1.2.0 ( 02 Sep, 2019 ) =
+--------------------------
+- [new] Compatible with new accounting module
+
+= v1.1.0 (30 Oct, 2018) =
+--------------------------
+- [fix] Search for employees
+- [tweak] Workflow menu moved under new ERP menu
+
+= v1.0.1 (23 Aug, 2017) =
+--------------------------
+- [fix] Fix workflow script enqueue dependencies
+- [fix] Add erp-vuejs dependency
+- [fix] Removed unnecessary packages & gitignore
+- [fix] Fix quote issue in tinymce editor
+
+= v1.0.0 (30 Nov, 2016) =
+--------------------------
+ - Initial release

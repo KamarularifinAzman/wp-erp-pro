@@ -1,0 +1,16 @@
+.icon-document {
+  width: 33px;
+  height: 33px;
+  background: url(../images/icons-for-overview-update-2x.png) no-repeat 0 0;
+  background-size: 193px 225px;
+  background-position-y: -192px;
+  /*background-position-x: -94px;*/
+  background-position-x: -159px;
+}
+.erp-side-menu ul li a:hover .icon-document {
+  background-position-x: -94px;
+}
+.erp-side-menu ul li.router-link-active a .icon-document {
+  background-position-x: -94px;
+}
+

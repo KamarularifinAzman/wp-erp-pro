@@ -1,0 +1,181 @@
+[v-cloak] {
+    display: none;
+}
+
+.erp-attendance-status-widget {
+    text-align: center;
+}
+
+.erp-attendance-status-chart {
+    width: 100%;
+    height: 200px;
+}
+
+.erp-attendance-status-chart table {
+    width: auto;
+    border-collapse: collapse;
+    border: 0;
+}
+
+.erp-attendance-status-chart table td {
+    padding: 1px 3px;
+    line-height: 1.8;
+    font-size: 12px;
+    border: 0;
+}
+
+.erp-flot-pie-label {
+    color: #fff;
+    font-family: monospace;
+    font-size: 11px;
+}
+
+.erp-att-status-chart-no-data {
+    padding-top: 65px;
+    font-style: italic;
+}
+
+.erp-attendance-status-widget .filter-selector {
+    line-height: 1;
+    margin-top: 20px;
+}
+
+.erp-att-self-service-widget .self-service-clock {
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.erp-att-self-service-widget .self-service-clock p {
+    color: #222;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 10px 0 0;
+}
+
+.erp-att-self-service-widget .self-service-clock span {
+    color: #C0C5C8;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.checkin-button-container {
+    margin-top: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkin-button-container .button {
+    margin: 0 8px;
+    height: 33px;
+    width: 90px;
+    font-size: 14px;
+}
+
+/*checkin*/
+.checkin-button-container .self-service-checkin-button {
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #399341, 1px 0 1px #399341, 0 1px 1px #399341, -1px 0 1px #399341;
+    background: #46b450;
+    border-color: #3fa248 #399341 #399341;
+    box-shadow: 0 1px 0 #399341;
+}
+
+.checkin-button-container .self-service-checkin-button.hover, .checkin-button-container .self-service-checkin-button:hover, .checkin-button-container .self-service-checkin-button.focus, .checkin-button-container .self-service-checkin-button:focus {
+    color: #fff;
+    background: #4bb955;
+    border-color: #399341;
+}
+
+.checkin-button-container .self-service-checkin-button.focus, .checkin-button-container .self-service-checkin-button:focus {
+    box-shadow: 0 1px 0 #3fa248, 0 0 2px 1px #2e7634;
+}
+
+.checkin-button-container .self-service-checkin-button.active, .checkin-button-container .self-service-checkin-button.active:hover, .checkin-button-container .self-service-checkin-button.active:focus, .checkin-button-container .self-service-checkin-button:active {
+    vertical-align: top;
+    background: #3fa248;
+    border-color: #399341;
+    box-shadow: inset 0 2px 0 #399341;
+}
+
+.checkin-button-container .self-service-checkin-button[disabled], .checkin-button-container .self-service-checkin-button:disabled, .checkin-button-container .self-service-checkin-button-disabled, .checkin-button-container .self-service-checkin-button.disabled {
+    color: #a7ddac !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1) !important;
+    cursor: default;
+    background: #4bb955 !important;
+    border-color: #4fba59 !important;
+    box-shadow: none !important;
+}
+
+/*checkout*/
+.checkin-button-container .self-service-checkout-button {
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #bf2121, 1px 0 1px #bf2121, 0 1px 1px #bf2121, -1px 0 1px #bf2121;
+    background: #dc3232;
+    border-color: #d12424 #bf2121 #bf2121;
+    box-shadow: 0 1px 0 #bf2121;
+}
+
+.checkin-button-container .self-service-checkout-button.hover, .checkin-button-container .self-service-checkout-button:hover, .checkin-button-container .self-service-checkout-button.focus, .checkin-button-container .self-service-checkout-button:focus {
+    color: #fff;
+    background: #dd3b3b;
+    border-color: #bf2121;
+}
+
+.checkin-button-container .self-service-checkout-button.focus, .checkin-button-container .self-service-checkout-button:focus {
+    box-shadow: 0 1px 0 #d12424, 0 0 2px 1px #9d1b1b;
+}
+
+.checkin-button-container .self-service-checkout-button.active, .checkin-button-container .self-service-checkout-button.active:hover, .checkin-button-container .self-service-checkout-button.active:focus, .checkin-button-container .self-service-checkout-button:active {
+    vertical-align: top;
+    background: #d12424;
+    border-color: #bf2121;
+    box-shadow: inset 0 2px 0 #bf2121;
+}
+
+.checkin-button-container .self-service-checkout-button[disabled], .checkin-button-container .self-service-checkout-button:disabled, .checkin-button-container .self-service-checkout-button-disabled, .checkin-button-container .self-service-checkout-button.disabled {
+    color: #f0a8a8 !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1) !important;
+    cursor: default;
+    background: #dd3b3b !important;
+    border-color: #de3f3f !important;
+    box-shadow: none !important;
+}
+
+table.erp-att-shift-info {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.quick-info {
+    padding: 20px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.quick-info p {
+    margin: 0;
+}
+
+.quick-info p span:first-child {
+    font-weight: bold;
+}
+

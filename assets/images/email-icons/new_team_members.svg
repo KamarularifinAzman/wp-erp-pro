@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="31px" viewBox="0 0 31 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>New team members</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="-8.07840109%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#A3A8FF" offset="0%"></stop>
+            <stop stop-color="#6870FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="What's-happening-this-week" transform="translate(-401.000000, -445.000000)">
+            <g id="New-team-members" transform="translate(401.000000, 445.000000)">
+                <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="0" width="30.7999995" height="30.7999995" rx="4.89999992"></rect>
+                <path d="M15.7919247,15.7666664 C19.4381639,15.7747339 22.3921084,18.8693964 22.3999064,22.6893329 C22.4043225,22.9013231 22.2513826,23.0807757 22.0498151,23.0999996 L22.0498151,23.0999996 L8.05006017,23.0999996 C7.8567639,23.0999996 7.70003289,22.9358374 7.70003289,22.7333329 C7.69448802,20.8914901 8.3875421,19.1227637 9.62676271,17.8162583 C10.8659833,16.5097529 12.5498586,15.7724919 14.3079506,15.7666664 L14.3079506,15.7666664 Z M15.0499377,7.69999987 C16.9829004,7.69999987 18.5498764,9.34162242 18.5498764,11.3666665 C18.5498764,13.3917105 16.9829004,15.0333331 15.0499377,15.0333331 C13.1169749,15.0333331 11.5499989,13.3917105 11.5499989,11.3666665 C11.5499989,9.34162242 13.1169749,7.69999987 15.0499377,7.69999987 Z" id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

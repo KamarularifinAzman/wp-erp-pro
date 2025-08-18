@@ -1,0 +1,100 @@
+.erp-hr-assets .wp-list-table .column-item_group { width: 40%; }
+.erp-hr-assets .wp-list-table .column-type { width: 5%; }
+.erp-hr-assets .wp-list-table .column-item_code { width: 10%; }
+.erp-hr-assets .wp-list-table .column-category_id { width: 10%; }
+.erp-hr-assets .wp-list-table .column-date_reg { width: 10%; }
+.erp-hr-assets .wp-list-table .column-date_expiry { width: 10%; }
+.erp-hr-assets .wp-list-table .column-date_warranty { width: 10%; }
+.erp-hr-assets .wp-list-table .column-status { width: 10%; }
+
+.erp-hr-allottment .wp-list-table .column-item_group { width: 28%; }
+.erp-hr-allottment .wp-list-table .column-model_no { width: 12%; }
+.erp-hr-allottment .wp-list-table .column-item_code { width: 12%; }
+.erp-hr-allottment .wp-list-table .column-allotted_to { width: 12%; }
+.erp-hr-allottment .wp-list-table .column-date_given { width: 12%; }
+.erp-hr-allottment .wp-list-table .column-date_return { width: 12%; }
+.erp-hr-allottment .wp-list-table .column-date_status { width: 12%; }
+
+.erp-asset-requests .wp-list-table .column-employee_name { width: 30%; }
+
+
+.deletesubmit {
+    color: #a00;
+    text-decoration: none;
+}
+
+.deletesubmit:hover {
+    color: red;
+}
+
+#erp-hr-new-asset ol li {
+    padding-bottom: 15px;
+}
+
+#erp-hr-new-asset input[type="text"],
+#erp-hr-new-asset input[type="number"],
+#erp-hr-new-asset textarea {
+    width: 220px;
+}
+
+#erp-asset-return input[type="text"],
+#erp-asset-return textarea {
+    width: 250px;
+}
+
+#erp-hr-new-asset .description,
+#erp-asset-return .description,
+#erp-asset-return .checkbox label{
+    opacity: 0.6;
+    margin-bottom:10px;
+}
+
+.asset-single-buttons .single-item-delete {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.asset-single-buttons .single-item-dissmiss {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.asset-allotted {
+    color: orange;
+}
+
+.asset-returned {
+    color: seagreen;
+}
+
+.asset-dissmissed {
+    color: red;
+}
+
+.asset-dissmissed {
+    color: red;
+}
+
+.erp-hr-allottment .description {
+    opacity: 0.6;
+}
+
+.erp-hr-allottment .alert-red {
+    color: red;
+}
+
+.erp-hr-allottment .alert-green {
+    color: green;
+}
+
+#erp-hr-new-asset .erp-asset-form #extra-item-area .single-item-area:last-child button.delete-item.button-secondary {
+    margin-bottom: 0px;
+}
+
+#erp-hr-new-asset .erp-asset-form #extra-item-area .single-item-area button.delete-item.button-secondary {
+    margin-bottom: 20px;
+}
+
+#req_item_category {
+    width: 150px;
+}

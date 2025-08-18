@@ -1,0 +1,73 @@
+= v1.3.0 (19 February, 2020) =
+----------------------------
+- [new] Global API for jobs
+- [new] Publish date column to job opening list
+- [new] Send system generated email when candidate apply for any particular job
+- [new] Filter for customizing single-template
+- [new] Duplicate a job with a single click
+- [fix] Comment rendering issue on applicants details page
+- [fix] Duplicate last name when a candidate is hired as employee
+
+= v1.2.2 (11 June, 2019) =
+----------------------------
+- [new] Add search engine friendly job schema
+- [fix] Hiring flow didn't work when existing job is updated
+- [fix] Hiring flow sorting didn't work when existing job is updated
+- [fix] Set date range from the year 1919 to 2119
+- [fix] Candidates overview page template is broken
+- [fix] Bulk action didn't work
+- [fix] Redirect to bulk email send page wasn't working
+
+= v1.2.0 (26 October, 2018) =
+- [new] Recruiter menu moved under new ERP menu
+- [new] Add recruiter role
+- [fix] Apply now button is not showing
+- [fix] Additional field value not showing in employee profile
+- [fix] Hiring stage doesn't save after sorting
+- [fix] Selected form doesn't show on add candidate page
+
+= v1.0.3 (09 May, 2018) =
+-------------------------
+- [new] Add navigation links to single applicant detail
+- [new] Employee can see his/her assigned todo in profile tab
+- [new] Download all CV in job seeker list
+- [tweak] Submission date updated with datepicker
+- [tweak] Remove redundant columns from job seeker list
+- [tweak] Remove setup wizard
+- [fix] Remove 404 on expire
+- [fix] Fix expire date on application form
+- [fix] Change status color column in recruitment list table
+- [fix] Change wp list table heading and button text
+- [fix] Job list page duplicate entry creation controlled
+
+= v1.0.2 (22 Nov, 2016) =
+-------------------------
+- [new] Email notification when candidate applied
+- [new] Admin can manually add candidate from wp admin
+- [new] Multiple hireing lead can be selected during job creation
+- [new] Candidate IP address added to job seeker list table
+- [tweak] Filter admin url for Add Recruitment button
+- [tweak] Filter admin sidebar menu items
+- [fix] Update questionnaire sections
+- [fix] Job seeker submission
+- [fix] Candidate form submission
+- [fix] Pagination problem fixed
+
+
+= v1.0.1 (29 Aug, 2016) =
+--------------------------
+- Frontend design fixes
+- Job application form question animation speedup
+- Helptext done for HR-Questionnaire
+- Icons added on job meta
+- Added cover letter field
+- Google docs embed file url fix
+- Change question set design and add question numbering
+- Responsive frontend
+- wpdb prefix fix
+- Added pot file
+
+
+= v1.0.0 (26 July, 2016) =
+--------------------------
+- Initial release

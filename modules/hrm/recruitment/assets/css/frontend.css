@@ -1,0 +1,615 @@
+@font-face {
+  font-family: 'erp-recruitment';
+  src:  url('../fonts/erp-recruitment.eot?r6jvn3');
+  src:  url('../fonts/erp-recruitment.eot?r6jvn3#iefix') format('embedded-opentype'),
+    url('../fonts/erp-recruitment.ttf?r6jvn3') format('truetype'),
+    url('../fonts/erp-recruitment.woff?r6jvn3') format('woff'),
+    url('../fonts/erp-recruitment.svg?r6jvn3#erp-recruitment') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="rec-icon-"], [class*=" rec-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'erp-recruitment' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.rec-icon-twitter-square:before {
+  content: "\f081";
+}
+.rec-icon-angle-left:before {
+  content: "\f104";
+}
+.rec-icon-angle-right:before {
+  content: "\f105";
+}
+.rec-icon-location:before {
+  content: "\e947";
+}
+.rec-icon-clock:before {
+  content: "\e94e";
+}
+.rec-icon-calendar:before {
+  content: "\e953";
+}
+.rec-icon-users:before {
+  content: "\e972";
+}
+.rec-icon-briefcase:before {
+  content: "\e9ae";
+}
+.rec-icon-google-plus2:before {
+  content: "\ea8c";
+}
+.rec-icon-facebook2:before {
+  content: "\ea91";
+}
+.rec-icon-linkedin:before {
+  content: "\eac9";
+}
+
+.rec-clearfix:before,
+.rec-clearfix:after {
+    content: "";
+    display: table;
+}
+.rec-clearfix:after {
+    clear: both;
+}
+.rec-clearfix {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+.erp-recruitment-single .erp-recruitment-meta {
+    list-style: none outside !important;
+    padding: 0;
+    margin: 0 0 1.5em;
+    overflow: hidden;
+    zoom: 1;
+    clear: both;
+}
+
+.erp-recruitment-single .erp-recruitment-meta li {
+    margin: 0 5px 0 0;
+    padding: .5em;
+    float: left;
+    line-height: 1em;
+    color: #666;
+}
+
+.erp-recruitment-single .erp-recruitment-meta li.employment-type {
+    background-color: #F7E2C5;
+    color: #906B37;
+    border-radius: 3px;
+}
+
+.erp-recruitment-single .erp-recruitment-application {
+    margin: 20px 0;
+}
+
+.erp-recruitment-single .erp-recruitment-application .application_button {
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 1em;
+    display: inline-block;
+    margin: 0 .5em 0 0;
+    padding: .90909091em 2em;
+    outline: 0;
+}
+
+.erp-recruitment-single .erp-recruitment-application .erp-recruitment-from-wrapper {
+    clear: both;
+    border: 1px solid #eee;
+    padding: .75em 1em;
+    margin: 1em 0;
+    line-height: 1.5em;
+    display: block;
+    position: relative;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    display: none;
+}
+
+.erp-recruitment-single .erp-recruitment-application .erp-recruitment-from-wrapper * {
+    box-sizing: border-box;
+}
+
+.erp-recruitment-single .erp-recruitment-application .erp-recruitment-from-wrapper:before {
+    content: "";
+    position: absolute;
+    margin: -10px 0 0 0;
+    top: 0;
+    left: 5em;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #eee;
+}
+
+.erp-recruitment-single .erp-recruitment-application .erp-recruitment-from-wrapper fieldset {
+    border: none;
+}
+
+.erp-recruitment-single .erp-recruitment-application .erp-recruitment-from-wrapper h3 {
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+.erp-recruitment-from-wrapper .erp-rec-form-field {
+    margin-bottom: 15px;
+}
+
+.erp-recruitment-from-wrapper .erp-rec-form-field label.title {
+    float: left;
+    width: 30%;
+    padding-right: 15px;
+}
+
+.erp-recruitment-from-wrapper .erp-rec-form-field .erp-rec-input-field {
+    float: left;
+    width: 70%;
+}
+
+.erp-recruitment-from-wrapper .erp-rec-form-field .erp-rec-input-field label {
+    display: block;
+}
+
+.erp-rec-input-field input,
+.erp-rec-input-field textarea {
+    width: 100%;
+}
+
+.erp-rec-input-field input[type="radio"],
+.erp-rec-input-field input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+.erp-rec-input-field span.name-col {
+    float: left;
+    width: 48%;
+}
+
+.erp-rec-input-field span.name-col.first-name {
+    margin-right: 4%;
+}
+
+.erp-rec-input-field .help-field {
+    font-style: italic;
+    color: #666;
+}
+
+.erp-recruitment-from-wrapper #submit_app {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1em;
+    line-height: 1em;
+    display: block;
+    margin: 15px 0 15px 0;
+    padding: .90909091em 2em;
+    outline: 0;
+    float: right;
+}
+
+.step-command-list .prev,
+.step-command-list .next {
+    font-size: 1em;
+    padding: .5em 1.2em;
+}
+
+.step-command-list .prev {
+    float: left;
+}
+
+.step-command-list .next {
+    float: right;
+}
+
+/*fron-end job list*/
+/*#job-ul-list{*/
+/*list-style-type: none;*/
+/*}*/
+/*#job-ul-list li{*/
+/*float: left;*/
+/*width: 100%;*/
+/*margin-bottom: 10px;*/
+/*border-bottom: 1px solid;*/
+/*margin-top: 10px;*/
+/*padding-bottom: 10px;*/
+/*}*/
+/*#job-ul-list li a{*/
+/*text-decoration: none;*/
+/*font-weight: bold;*/
+/*font-size: 18px;*/
+/*color: #686FC0;*/
+/*font-family: arial;*/
+/*min-width: 200px;*/
+/*float: left;*/
+/*border-bottom: none;*/
+/*}*/
+/*#job-ul-list li span{*/
+/*float: left;*/
+/*min-width: 100px;*/
+/*font-size: 13px;*/
+/*line-height: 25px;*/
+/*}*/
+/*#job-ul-list li .expire-date-wrapper{*/
+/*float: left;*/
+/*width: 15%;*/
+/*}*/
+/*#job-ul-list li span.location{*/
+/*width: 20%;*/
+/*}*/
+/*#job-ul-list li span.department{*/
+/*width: 34%;*/
+/*}*/
+/*#job-ul-list li span.expire-date{*/
+/*width: 100%;*/
+/*}*/
+/*#job-ul-list li span.employment-type{*/
+/*width: 100%;*/
+/*}*/
+table#job-ul-list {
+
+}
+
+/*table#job-ul-list li{*/
+/*float: left;*/
+/*width: 100%;*/
+/*margin-bottom: 10px;*/
+/*border-bottom: 1px solid;*/
+/*margin-top: 10px;*/
+/*padding-bottom: 10px;*/
+/*}*/
+table#job-ul-list a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #686FC0;
+    font-family: 'Arial';
+    min-width: 200px;
+    float: left;
+    border-bottom: none;
+    box-shadow: 0 !important;
+}
+
+table#job-ul-list span {
+    float: left;
+    min-width: 100px;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+table#job-ul-list .expire-date-wrapper {
+    float: left;
+    width: 15%;
+}
+
+table#job-ul-list span.location {
+    width: 20%;
+}
+
+table#job-ul-list span.department {
+    width: 34%;
+}
+
+table#job-ul-list span.expire-date {
+    width: 100%;
+}
+
+table#job-ul-list span.employment-type {
+    width: 100%;
+}
+#job-ul-list-header{
+    list-style-type: none;
+    font-family: helvetica, arial;
+    background-color: #f1f1f1;
+    padding: 15px;
+    text-align: right;
+    width: 100%;
+}
+#job-ul-list-header-label{
+    float: left;
+    margin: 0;
+}
+#job-ul-list-header li{
+    border: 1px solid #ddd;
+    float: left;
+    text-align: center;
+    width: 25%;
+}
+/*.erp-rec-job-list:hover{*/
+    /*border-left:4px solid #118DDA;*/
+/*}*/
+.erp-rec-job-list{
+    list-style-type: none;
+    border-bottom: 1px solid #e1e1e1;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+    /*padding: 17px 5px;*/
+    font-family: helvetica, arial;
+    border-left:1px solid #f1f1f1;
+    border-right:1px solid #f1f1f1;
+    margin-left: 0;
+}
+.erp-rec-job-list a{
+    padding: 17px 0;
+    text-decoration: none !important;
+    box-shadow: none !important;
+    float: left;
+    width: 99%;
+}
+.erp-rec-job-list .hoverparts:before{
+    content: "\00a0 ";
+}
+.erp-rec-job-list .hoverparts{
+    width: 1%;
+    float: left;
+    height: 90px;
+}
+.erp-rec-job-list:hover .hoverparts{
+    background-color: #118DDA;
+}
+/*.erp-rec-job-list li:first-child{*/
+    /*width: 4px;*/
+/*}*/
+/*.erp-rec-job-list:hover li:first-child{*/
+    /*border-color: #118DDA;*/
+/*}*/
+.erp-rec-job-list .jparts{
+    float: left;
+    width: 24%;
+}
+/*.erp-rec-job-list li span:before{*/
+    /*/!*content: "\00a0 ";*!/*/
+/*}*/
+/*.erp-rec-job-list li span{*/
+
+/*}*/
+/*.erp-rec-job-list li a{*/
+    /*text-decoration: none;*/
+    /*box-shadow: none !important;*/
+    /*display: block;*/
+    /*padding-left: 13px;*/
+/*}*/
+.erp-rec-job-list .job-title {
+    color: #006699;
+    display: block;
+    padding-left: 8px;
+}
+.erp-rec-job-list .expire-date-wrapper {
+
+}
+.erp-rec-job-list .expire-date .daysleft{
+    display: block;
+}
+.erp-rec-job-list .expire-date{
+    display: block;
+    color:#000;
+}
+.erp-rec-job-list .department {
+    display: block;
+    font-size: 14px;
+    color: #a9a9a9;
+    padding-left: 8px;
+}
+.erp-rec-job-list .min-exp-caption,
+.expire-date .daysleft {
+    display: block;
+    font-size: 14px;
+    color: #a9a9a9;
+}
+.erp-rec-job-list .min-exp {
+    display: block;
+    color:#000;
+}
+.erp-rec-job-list .employment-type{
+    display: block;
+    color: #58BF88;
+    text-transform: capitalize;
+}
+/*frontend apply form css*/
+#jobseeker_form_table {
+
+}
+
+#jobseeker_form_table tr {
+
+}
+
+#jobseeker_form_table tr td {
+
+}
+
+#jobseeker_form_table tr td label {
+    display: block;
+}
+
+#jobseeker_form_table tr td #postal_code {
+    width: 60%;
+}
+
+#jobseeker_form_table #submit_app {
+    float: right;
+}
+
+#loader_wrapper {
+    margin: 0 auto;
+    width: 32px;
+}
+
+#loader_gif {
+    background-image: url('../images/loader.gif');
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+}
+
+.required_class {
+    color: red;
+}
+/*
+#jobseeker_form div{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#jobseeker_form ul {
+    list-style-type: none;
+}
+#jobseeker_form ul li {
+    float: left;
+    margin-right: 30px;
+    min-height: 82px;
+    width: 45%;
+}
+#jobseeker_form ul li label {
+    display: block;
+}
+#jobseeker_form ul li:last-child {
+    width: 100%;
+    text-align: right;
+}
+*/
+
+#jobseeker_insertion_message {
+    padding: 15px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: none;
+}
+
+#jobseeker_insertion_message.success {
+    color: #3c763d;
+    background: #d6e9c6;
+    background-color: #d6e9c6;
+}
+
+#jobseeker_insertion_message.error {
+    color: #a94442;
+    background: #f2dede;
+    background-color: #ebccd1;
+}
+
+
+#job_seeker_apply_form_wrapper{
+    padding-top: 15px;
+}
+
+.single-erp_hr_recruitment .hentry{
+    padding-top: 0;
+}
+.heading-title{
+    font-family: arial;
+    font-size: 33px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.job-location{
+    font-family: arial;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+#additional_job_information{
+    margin-top: 10px;
+}
+#additional_job_info {
+    list-style-type: none;
+}
+
+#additional_job_info li:first-child {
+    /*border-top: 1px solid #404040;*/
+}
+
+#additional_job_info li {
+    display: block;
+}
+
+#social_thing {
+    float: left;
+    margin-top: 10px;
+}
+
+#social_thing h6 {
+    margin: 0;
+    font-size: 13px;
+}
+
+#social_thing .fb-share-button {
+    float: left;
+}
+
+#social_thing .twitter-share-button {
+    margin-top: 12px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#social_thing .IN-widget {
+    float: right;
+    margin-left: 3px;
+    margin-top: 13px;
+}
+.erp-rec-error {
+    border: 1px solid #dc3232;
+    box-shadow: 0 0 2px rgba( 204, 0, 0, 0.8 ) !important;
+}
+
+@media screen and (max-width: 710px) {
+
+    .erp-rec-job-list .jparts {
+        float: none;
+        width: 100%;
+        padding: 0 3%;
+    }
+
+    .erp-rec-job-list .job-title {
+        text-indent: 0;
+    }
+
+    .erp-rec-job-list .jparts .min-exp-caption {
+        text-indent: 8px;
+    }
+
+    .erp-recruitment-single .erp-recruitment-meta li {
+        float: none;
+    }
+
+    .erp-recruitment-from-wrapper .erp-rec-form-field label.title,
+    .erp-recruitment-from-wrapper .erp-rec-form-field .erp-rec-input-field {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+
+    .erp-recruitment-from-wrapper .erp-rec-form-field label.title {
+        padding-bottom: 10px;
+    }
+
+    .erp-rec-input-field .help-field {
+        padding-top: 10px;
+    }
+
+    .erp-rec-input-field span.name-col {
+        float: none;
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+    }
+}
